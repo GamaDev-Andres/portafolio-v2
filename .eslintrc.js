@@ -18,6 +18,14 @@ module.exports = {
     sourceType: 'module'
   },
   plugins: ['react'],
+  rules: {
+    'space-before-function-paren': [
+      'error',
+      {
+        named: 'never'
+      }
+    ]
+  },
   overrides: [
     {
       files: ['*.test.js'],

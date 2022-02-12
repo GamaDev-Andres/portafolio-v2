@@ -4,6 +4,7 @@ module.exports = {
     extend: {
       colors: {
         base: '#F0F5F9',
+
         baseDark: '#151515',
         letraDark: '#E2E8F0',
         letra: '#1E2022',
@@ -11,7 +12,10 @@ module.exports = {
         bordes: '#C9D6DF'
       },
       gridTemplateRows: {
-        layout: '50px 1fr auto'
+        layout: 'auto 1fr auto'
+      },
+      screens: {
+        ssm: '430px'
       }
     }
   },

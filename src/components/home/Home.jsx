@@ -1,7 +1,17 @@
-import React from "react";
+import SectionAboutMe from './SectionAboutMe'
+import SectionPresentation from './sectionPresentation/SectionPresentation'
+import SectionProjects from './SectionProjects'
+import SectionTechs from './SectionTechs'
 
 const Home = () => {
-  return <div>Home</div>;
-};
+  return (
+    <main className="px-4">
+      <SectionPresentation />
+      <SectionAboutMe />
+      <SectionTechs />
+      <SectionProjects />
+    </main>
+  )
+}
 
-export default Home;
+export default Home

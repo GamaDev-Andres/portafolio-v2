@@ -1,7 +1,5 @@
-import React from "react";
-
 const SectionAboutMe = () => {
-  return <div>SectionAboutMe</div>;
-};
+  return <div>SectionAboutMe</div>
+}
 
-export default SectionAboutMe;
+export default SectionAboutMe

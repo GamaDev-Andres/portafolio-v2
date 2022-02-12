@@ -1,17 +1,16 @@
-import { useState } from 'react';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Home from '../components/home/Home';
-import Project from '../components/project/Project';
+import { Route, Routes } from 'react-router-dom'
+import Error404 from '../components/Error404'
+import Home from '../components/home/Home'
+import Project from '../components/project/Project'
 
 function AppRouter() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/project/:id" element={<Project />} />
-      </Routes>
-    </BrowserRouter>
-  );
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/project/:id" element={<Project />} />
+      <Route path="*" element={<Error404 />} />
+    </Routes>
+  )
 }
 
-export default AppRouter;
+export default AppRouter

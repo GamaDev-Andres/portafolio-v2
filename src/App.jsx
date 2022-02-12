@@ -1,17 +1,32 @@
-import React, { useState } from 'react';
-import Footer from './components/Footer';
-import NavBar from './components/NavBar';
-import AppRouter from './routes/AppRouter';
+import { useEffect } from 'react'
+import Footer from './components/Footer'
+import useNabBarFadeOut from './components/hooks/useNabBarFadeOut'
+import NavBar from './components/NavBar'
+import NavBarFooter from './components/NavBarFooter'
+import AppRouter from './routes/AppRouter'
 
 const App = () => {
-  const [first, setfirst] = useState(second);
-  return (
-    <div className="grid grid-rows-layout min-h-screen bg-base dark:bg-baseDark">
-      <NavBar />
-      <AppRouter />
-      <Footer />
-    </div>
-  );
-};
+  const { navBarScrollController } = useNabBarFadeOut()
 
-export default App;
+  useEffect(() => {
+    if (document.querySelector('#navFooter')) {
+      window.addEventListener('scroll', navBarScrollController)
+    }
+    return () => {
+      window.removeEventListener('scroll', navBarScrollController)
+    }
+  }, [])
+
+  return (
+    <div className="bg-base dark:bg-baseDark  text-letra min-w-screen">
+      <div className="grid grid-rows-layout max-w-[1256px] min-h-screen mx-auto">
+        <NavBar />
+        <AppRouter />
+        <Footer />
+        <NavBarFooter />
+      </div>
+    </div>
+  )
+}
+
+export default App
