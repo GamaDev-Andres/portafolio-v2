@@ -1,13 +1,17 @@
-import { useState } from "react";
+import React, { useState } from 'react';
+import Footer from './components/Footer';
+import NavBar from './components/NavBar';
+import AppRouter from './routes/AppRouter';
 
-function App() {
+const App = () => {
+  const [first, setfirst] = useState(second);
   return (
-    <div className="h-screen flex justify-center items-center bg-blue-500">
-      <h1 className="p-8 rounded-2xl text-white text-5xl font-bold  bg-violet-900">
-        Iniciando portafolio-v2
-      </h1>
+    <div className="grid grid-rows-layout min-h-screen bg-base dark:bg-baseDark">
+      <NavBar />
+      <AppRouter />
+      <Footer />
     </div>
   );
-}
+};
 
 export default App;
