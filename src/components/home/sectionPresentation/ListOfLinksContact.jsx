@@ -17,7 +17,7 @@ const ListOfLinksContact = () => {
         rel="noreferrer"
       >
         <i className="fa-brands fa-github"></i>
-        <span className="ml-2 text-xs">Github</span>
+        <span className="text-xs">Github</span>
       </a>
       <a
         target="_blank"
@@ -26,7 +26,7 @@ const ListOfLinksContact = () => {
         rel="noreferrer"
       >
         <i className="fa-brands fa-linkedin"></i>
-        <span className="ml-2 text-xs">LinkedIn</span>
+        <span className="text-xs">LinkedIn</span>
       </a>
     </div>
   )
