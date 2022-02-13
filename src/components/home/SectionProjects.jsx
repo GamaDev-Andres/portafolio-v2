@@ -1,5 +1,13 @@
+import TitleSection from '../TitleSection'
+
 const SectionProjects = () => {
-  return <div>SectionProjects</div>
+  return (
+    <section>
+      <TitleSection textInSpan={'proyectos'} unOrder={true}>
+        mis
+      </TitleSection>
+    </section>
+  )
 }
 
 export default SectionProjects

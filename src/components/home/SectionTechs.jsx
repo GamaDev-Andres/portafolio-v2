@@ -1,7 +1,11 @@
-import React from "react";
+import TitleSection from '../TitleSection'
 
 const SectionTechs = () => {
-  return <div>SectionTechs</div>;
-};
+  return (
+    <section>
+      <TitleSection textInSpan={'Mis'}>Habilidades</TitleSection>
+    </section>
+  )
+}
 
-export default SectionTechs;
+export default SectionTechs

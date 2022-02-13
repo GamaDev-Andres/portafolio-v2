@@ -30,7 +30,8 @@ module.exports = {
     {
       files: ['*.test.js'],
       rules: {
-        'no-undef': 'off'
+        'no-undef': 'off',
+        'multiline-ternary': 'never'
       }
     }
   ]

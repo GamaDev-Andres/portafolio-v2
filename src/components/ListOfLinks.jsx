@@ -22,7 +22,7 @@ const ListOfLinks = ({ ViewInPhone = false }) => {
         to="#sobremi"
       >
         <i className="sm:mr-2 fa-solid fa-user"></i>
-        <span className={`${ViewInPhone && 'text-xs'}`}>sobremi</span>
+        <span className={`${ViewInPhone && 'text-xs'}`}>sobre mí</span>
       </Link>
       <Link
         className="sm:hover:bg-blue-200  flex flex-col sm:flex-row items-center transition-colors duration-300 rounded-lg sm:px-4 sm:py-2 py-0 font-medium"

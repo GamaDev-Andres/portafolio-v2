@@ -1,6 +1,6 @@
 import { useEffect } from 'react'
 import Footer from './components/Footer'
-import useNabBarFadeOut from './components/hooks/useNabBarFadeOut'
+import useNabBarFadeOut from './hooks/useNabBarFadeOut'
 import NavBar from './components/NavBar'
 import NavBarFooter from './components/NavBarFooter'
 import AppRouter from './routes/AppRouter'

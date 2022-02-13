@@ -1,4 +1,4 @@
-import SectionAboutMe from './SectionAboutMe'
+import SectionAboutMe from './sectionAboutMe/SectionAboutMe'
 import SectionPresentation from './sectionPresentation/SectionPresentation'
 import SectionProjects from './SectionProjects'
 import SectionTechs from './SectionTechs'
