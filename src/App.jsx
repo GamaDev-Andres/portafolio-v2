@@ -19,7 +19,7 @@ const App = () => {
 
   return (
     <div className="bg-base dark:bg-baseDark  text-letra min-w-screen">
-      <div className="grid grid-rows-layout max-w-[1256px] min-h-screen mx-auto">
+      <div className="grid grid-rows-layout grid-cols-1 max-w-[1256px] min-h-screen mx-auto">
         <NavBar />
         <AppRouter />
         <Footer />

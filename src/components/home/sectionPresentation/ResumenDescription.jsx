@@ -1,3 +1,4 @@
+import { miDescripcion } from '../../../helpers/data'
 import TitleSection from '../../TitleSection'
 
 const ResumenDescription = () => {
@@ -6,14 +7,15 @@ const ResumenDescription = () => {
       <span className="uppercase font-medium text-xl text-fondos">
         Hola soy
       </span>
-      <TitleSection textInSpan={'Andres'}>Gama</TitleSection>
+      <h2 className="my-4 uppercase font-bold text-3xl ">
+        <span className="text-blue-400">andres</span> gama
+      </h2>
       <p className="whitespace-pre-wrap text-fondos">
         Un
         <span className="text-blue-400 font-medium">
           {' Front-End Web Developer '}
         </span>
-        apasionado por el mundo del desarrollo y por crear aplicaciones e
-        interfaces que aporten y brinden grandes experiencias.
+        {miDescripcion.presentacion}
       </p>
     </>
   )

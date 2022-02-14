@@ -14,6 +14,10 @@ module.exports = {
       gridTemplateRows: {
         layout: 'auto 1fr auto'
       },
+
+      gridTemplateColumns: {
+        layoutCards: 'repeat(auto-fit,minmax(300px,1fr))'
+      },
       screens: {
         ssm: '430px'
       }

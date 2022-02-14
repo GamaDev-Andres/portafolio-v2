@@ -3,7 +3,7 @@ import MiDescripcion from './MiDescripcion'
 
 const SectionAboutMe = () => {
   return (
-    <section>
+    <section id="sobremi">
       <TitleSection textInSpan={'mi'} unOrder={true}>
         sobre
       </TitleSection>
