@@ -13,6 +13,7 @@ export const proyectos = [
       'Reducers'
     ],
     url: 'https://barberappag.netlify.app/',
+    codigo: 'https://github.com/GamaDev-Andres/BarberApp-fe',
     poster:
       'https://res.cloudinary.com/dapa84kxy/image/upload/v1644874961/portafolio/barberapp/barberapp_sdpgwl.png',
     fotos: []
@@ -23,6 +24,7 @@ export const proyectos = [
       'Mini clon de una red social realizado con React, Redux y firebase, me baso en ciertas funcionalidades de Facebook, tales como, publicaciones, likes, comentarios y perfiles individuales.',
     tecnologias: ['React', 'Firebase', 'Redux', 'Sass'],
     url: 'https://agnetbook.netlify.app/',
+    codigo: 'https://github.com/GamaDev-Andres/network-social-react',
     poster:
       'https://res.cloudinary.com/dapa84kxy/image/upload/v1644874998/portafolio/netbook/netbook_gus84s.png',
     fotos: []
@@ -33,6 +35,7 @@ export const proyectos = [
       'Simulación de una galería web realizada con React y Firebase , la aplicación se basa en la posibilidad de crear álbumes y tomarse fotos directamente en el álbum deseado y también tiene la posibilidad de buscar imágenes en una API y guardarlas en un álbum.',
     tecnologias: ['React', 'Firebase', 'StyledComponents'],
     url: 'https://practica-galeria.web.app/',
+    codigo: 'https://github.com/GamaDev-Andres/react-galeria',
     poster:
       'https://res.cloudinary.com/dapa84kxy/image/upload/v1644875042/portafolio/galeriareact/reactFirebase_xjiauw.png',
     fotos: []
@@ -43,6 +46,7 @@ export const proyectos = [
       'Proyecto de películas hecho con Javascript, Sass y webpack .En este proyecto me baso en un diseño de una pagina funcional, consulto la API IMDB que me provee información tanto de series como de películas con sus respectivos tráileres y sinopsis. Implemento buscadores y lista de favoritos.',
     tecnologias: ['Html', 'Sass', 'Webpack', 'Javascript'],
     url: 'https://afmispelisgi.netlify.app/',
+    codigo: 'https://github.com/GamaDev-Andres/PeliculasOMDB',
     poster:
       'https://res.cloudinary.com/dapa84kxy/image/upload/v1644875064/portafolio/mispelis/imagepelisOMDB_cchblf.png',
     fotos: []
@@ -53,6 +57,7 @@ export const proyectos = [
       'Proyecto realizado con Html, css, javascript y gulp. En este proyecto consulto una API de videojuegos y organizo su información en una interfaz que me permite hacer búsqueda y filtrado de los videojuegos disponibles.',
     tecnologias: ['Html', 'Sass', 'Gulp', 'Javascript'],
     url: 'https://findyourgames.netlify.app/',
+    codigo: 'https://github.com/GamaDev-Andres/FindYourGames',
     poster:
       'https://res.cloudinary.com/dapa84kxy/image/upload/v1644875081/portafolio/findyourgames/proyecto1_vsncjy.png',
     fotos: []

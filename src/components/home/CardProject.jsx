@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 const CardProject = ({ project }) => {
-  const { poster, descripcion, tecnologias, titulo, url } = project
+  const { poster, descripcion, tecnologias, titulo, url, codigo } = project
   return (
     <div className=" shadow-blue-200 shadow-md rounded-2xl bg-white text-fondos">
       <a target="_blank" href={url} className="w-full block aspect-video">
@@ -10,12 +10,23 @@ const CardProject = ({ project }) => {
           alt="project"
         />
       </a>
-      <div className="px-4 pb-4 ">
-        <a target="_blank" href={url}>
-          <h3 className="font-bold text-blue-400 text-center text-xl m-2">
-            {titulo}
-          </h3>
-        </a>
+      <div className="px-4 pb-4">
+        <div className="relative py-2 flex justify-center items-center">
+          <a
+            className="font-bold text-blue-400 text-center mx-auto text-xl"
+            target="_blank"
+            href={url}
+          >
+            {titulo} <i className="text-sm fa-solid fa-link text-fondos"></i>
+          </a>
+          <a
+            target="_blank"
+            className="absolute top-2 right-0 text-xl block text-letra"
+            href={codigo}
+          >
+            <i className="fa-brands fa-github"></i>
+          </a>
+        </div>
         <div>
           <h3 className="text-letra font-medium">Descripción</h3>
 
