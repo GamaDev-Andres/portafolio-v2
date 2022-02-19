@@ -1,5 +1,4 @@
 import { miDescripcion } from '../../../helpers/data'
-import TitleSection from '../../TitleSection'
 
 const ResumenDescription = () => {
   return (

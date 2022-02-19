@@ -1,13 +1,20 @@
-const SectionProject = () => {
+import PropTypes from 'prop-types'
+const SectionProject = ({ titulo, descripcion, arrImgs }) => {
   return (
-    <section>
-      <h3>titulo seccion</h3>
-      <p>descripcion de seccion</p>
+    <section className="text-fondos">
+      <h3 className="uppercase text-blue-400 font-medium">{titulo}</h3>
+      <p>{descripcion}</p>
       <div>
-        <img src="#" alt="" />
+        {arrImgs.map((el) => (
+          <img src="#" alt="#" key={el} />
+        ))}
       </div>
     </section>
   )
 }
-
+SectionProject.propTypes = {
+  titulo: PropTypes.string.isRequired,
+  descripcion: PropTypes.string.isRequired,
+  arrImgs: PropTypes.array.isRequired
+}
 export default SectionProject

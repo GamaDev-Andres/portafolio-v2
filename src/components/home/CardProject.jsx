@@ -1,9 +1,15 @@
+import PropTypes from 'prop-types'
 import { Link } from 'react-router-dom'
 const CardProject = ({ project }) => {
   const { poster, descripcion, tecnologias, titulo, url, codigo } = project
   return (
     <div className=" shadow-blue-200 shadow-md rounded-2xl bg-white text-fondos">
-      <a target="_blank" href={url} className="w-full block aspect-video">
+      <a
+        target="_blank"
+        href={url}
+        className="w-full block aspect-video"
+        rel="noreferrer"
+      >
         <img
           className="w-full aspect-video object-cover"
           src={poster}
@@ -16,6 +22,7 @@ const CardProject = ({ project }) => {
             className="font-bold text-blue-400 text-center mx-auto text-xl"
             target="_blank"
             href={url}
+            rel="noreferrer"
           >
             {titulo} <i className="text-sm fa-solid fa-link text-fondos"></i>
           </a>
@@ -23,6 +30,7 @@ const CardProject = ({ project }) => {
             target="_blank"
             className="absolute top-2 right-0 text-xl block text-letra"
             href={codigo}
+            rel="noreferrer"
           >
             <i className="fa-brands fa-github"></i>
           </a>
@@ -56,5 +64,7 @@ const CardProject = ({ project }) => {
     </div>
   )
 }
-
+CardProject.propTypes = {
+  project: PropTypes.object.isRequired
+}
 export default CardProject
