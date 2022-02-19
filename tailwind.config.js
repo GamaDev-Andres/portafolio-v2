@@ -12,7 +12,7 @@ module.exports = {
         bordes: '#C9D6DF'
       },
       gridTemplateRows: {
-        layout: 'auto 1fr auto'
+        layout: '1fr auto'
       },
 
       gridTemplateColumns: {

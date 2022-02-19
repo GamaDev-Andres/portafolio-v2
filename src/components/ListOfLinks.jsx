@@ -1,6 +1,9 @@
 import propTypes from 'prop-types'
+import { Link, useLocation } from 'react-router-dom'
 
 const ListOfLinks = ({ ViewInPhone = false }) => {
+  const location = useLocation()
+  console.log(location)
   return (
     <div
       className={`sm:gap-4 flex-grow sm:flex-grow-0 ${
@@ -9,34 +12,34 @@ const ListOfLinks = ({ ViewInPhone = false }) => {
           : 'hidden justify-end sm:flex'
       }`}
     >
-      <a
+      <Link
         className="sm:hover:bg-blue-200 flex flex-col sm:flex-row items-center transition-colors duration-300 rounded-lg sm:px-4 sm:py-2 py-0 font-medium"
-        href="#inicio"
+        to="/#inicio"
       >
         <i className="sm:mr-2 fa-solid fa-house"></i>
         <span className={`${ViewInPhone && 'text-xs'}`}>inicio</span>
-      </a>
-      <a
+      </Link>
+      <Link
         className="sm:hover:bg-blue-200  flex flex-col sm:flex-row items-center transition-colors duration-300 rounded-lg sm:px-4 sm:py-2 py-0 font-medium"
-        href="#sobremi"
+        to="/#sobremi"
       >
         <i className="sm:mr-2 fa-solid fa-user"></i>
         <span className={`${ViewInPhone && 'text-xs'}`}>sobre mí</span>
-      </a>
-      <a
+      </Link>
+      <Link
         className="sm:hover:bg-blue-200  flex flex-col sm:flex-row items-center transition-colors duration-300 rounded-lg sm:px-4 sm:py-2 py-0 font-medium"
-        href="#habilidades"
+        to="/#habilidades"
       >
         <i className="sm:mr-2 fa-solid fa-laptop-code"></i>
         <span className={`${ViewInPhone && 'text-xs'}`}>habilidades</span>
-      </a>
-      <a
+      </Link>
+      <Link
         className="sm:hover:bg-blue-200  flex flex-col sm:flex-row items-center transition-colors duration-300 rounded-lg sm:px-4 sm:py-2 py-0 font-medium"
-        href="#proyectos"
+        to="/#proyectos"
       >
         <i className="sm:mr-2 fa-solid fa-briefcase"></i>
         <span className={`${ViewInPhone && 'text-xs'}`}>proyectos</span>
-      </a>
+      </Link>
     </div>
   )
 }
