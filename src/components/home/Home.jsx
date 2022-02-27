@@ -3,7 +3,7 @@ import NavBarFooter from '../NavBarFooter'
 import SectionAboutMe from './sectionAboutMe/SectionAboutMe'
 import SectionHabilidades from './sectionHabilidades/SectionHabilidades'
 import SectionPresentation from './sectionPresentation/SectionPresentation'
-import SectionProjects from './SectionProjects'
+import SectionProjects from './sectionProjects/SectionProjects'
 
 const Home = () => {
   return (

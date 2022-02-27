@@ -16,6 +16,16 @@ export const proyectos = [
     codigo: 'https://github.com/GamaDev-Andres/BarberApp-fe',
     poster:
       'https://res.cloudinary.com/dapa84kxy/image/upload/v1644874961/portafolio/barberapp/barberapp_sdpgwl.png',
+    detalles: [
+      {
+        titulo: 'demo',
+        data: `Aplicación realizada con el stack MERN y styled components,
+     enfocada en la administración de una barbería en donde el cliente tiene 
+     permitido agendar una cita con un barbero basándose en su perfil ,
+      cortes o calificación de otros clientes.`,
+        fotos: []
+      }
+    ],
     fotos: []
   },
   {

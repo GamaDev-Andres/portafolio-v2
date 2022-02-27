@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types'
-const SectionProject = ({ titulo, descripcion, arrImgs }) => {
+const SectionInProject = ({ titulo, descripcion, arrImgs }) => {
   return (
     <section className="text-fondos">
       <h3 className="uppercase text-blue-400 font-medium">{titulo}</h3>
@@ -12,9 +12,9 @@ const SectionProject = ({ titulo, descripcion, arrImgs }) => {
     </section>
   )
 }
-SectionProject.propTypes = {
+SectionInProject.propTypes = {
   titulo: PropTypes.string.isRequired,
   descripcion: PropTypes.string.isRequired,
   arrImgs: PropTypes.array.isRequired
 }
-export default SectionProject
+export default SectionInProject

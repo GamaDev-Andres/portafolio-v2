@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types'
 import { Link } from 'react-router-dom'
-const CardProject = ({ project }) => {
+const CardProject = ({ project, withDetails = false }) => {
   const { poster, descripcion, tecnologias, titulo, url, codigo } = project
   return (
     <div className=" shadow-blue-200 shadow-md rounded-2xl bg-white text-fondos">
@@ -53,18 +53,21 @@ const CardProject = ({ project }) => {
             ))}
           </ul>
         </div>
-        <Link
-          className=" hover:shadow-lg hover:shadow-blue-300 text-sm text-center mx-auto block mt-4 border border-solid shadow-blue-200 shadow-md border-blue-400 px-6 py-2 rounded-full"
-          to="/project/barberapp"
-          rel="noreferrer"
-        >
-          Ver más detalles
-        </Link>
+        {withDetails && (
+          <Link
+            className=" hover:shadow-lg hover:shadow-blue-300 text-sm text-center mx-auto block mt-4 border border-solid shadow-blue-200 shadow-md border-blue-400 px-6 py-2 rounded-full"
+            to="/project/barberapp"
+            rel="noreferrer"
+          >
+            Ver más detalles
+          </Link>
+        )}
       </div>
     </div>
   )
 }
 CardProject.propTypes = {
-  project: PropTypes.object.isRequired
+  project: PropTypes.object.isRequired,
+  withDetails: PropTypes.bool
 }
 export default CardProject
