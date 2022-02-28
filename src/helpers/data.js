@@ -18,15 +18,36 @@ export const proyectos = [
       'https://res.cloudinary.com/dapa84kxy/image/upload/v1644874961/portafolio/barberapp/barberapp_sdpgwl.png',
     detalles: [
       {
-        titulo: 'demo',
-        data: `Aplicación realizada con el stack MERN y styled components,
-     enfocada en la administración de una barbería en donde el cliente tiene 
-     permitido agendar una cita con un barbero basándose en su perfil ,
-      cortes o calificación de otros clientes.`,
+        titulo: 'Login y Registro del barbero',
+        data: 'El barbero podrá ingresar a su cuenta normalmente, solo debe cambiar la opción a modo barbero. Pero para registrar un barbero debe hacerlo un administrador de la página que cuente con la contraseña de "administrador" que es requerida para crear un user de barbero.',
+        fotos: []
+      },
+      {
+        titulo: 'Login y Registro del cliente',
+        data: 'El cliente debe de crearse una cuenta para poder contar con los servicios de BARBERAPP, para esto se le brinda la posibilidad de hacerlo con un correo electrónico.',
+        fotos: []
+      },
+      {
+        titulo: 'Agendar cita',
+        data: 'El cliente tiene la posibilidad de agendar citas con el barbero que él prefiere y puede hacerlo de 2 formas, la primera es entrando a la página "agendar cita" y la otra es entrando en la página de "barbero" en donde podrá elegir a su barbero y agendar la cita directamente.',
+        fotos: []
+      },
+      {
+        titulo: 'Ver citas',
+        data: 'El cliente tiene la posibilidad de ver las citas que tiene agendadas y también ver en qué estado de encuentran, podrá ver si la cita fue aceptada, rechazada o caduco. Por otro lado, el barbero tiene la posibilidad de ver las citas que le han solicitado y decidir si aceptarlas o rechazarlas.',
+        fotos: []
+      },
+      {
+        titulo: 'Ver barberos',
+        data: 'Solo el cliente tiene la posibilidad de ver los barberos disponibles y ver su foto o ir a su perfil y una breve descripción de ellos, con esto el cliente podrá decidir con más seguridad con quien quiere agendar si cita.',
+        fotos: []
+      },
+      {
+        titulo: 'Perfil de barbero',
+        data: 'Solo los barberos cuentan con un perfil en el que pueden hablar de ellos y de su experiencia, además tienen la posibilidad de agregar fotos de los cortes que han realizado para que el cliente pueda ver su trabajo.',
         fotos: []
       }
-    ],
-    fotos: []
+    ]
   },
   {
     titulo: 'NETBOOK',
@@ -37,7 +58,38 @@ export const proyectos = [
     codigo: 'https://github.com/GamaDev-Andres/network-social-react',
     poster:
       'https://res.cloudinary.com/dapa84kxy/image/upload/v1644874998/portafolio/netbook/netbook_gus84s.png',
-    fotos: []
+    detalles: [
+      {
+        titulo: 'Login y Registro',
+        data: 'El usuario debe crear una cuenta para poder ver el contenido principal de Netbook. Esta cuenta puede ser creada por email o Google y si lo hace con Google se tomará su foto de perfil como la de Netbook.',
+        fotos: []
+      },
+      {
+        titulo: 'Agregar amigos',
+        data: 'El usuario podrá agregar amigos para así poder seguir sus publicaciones y también tiene la posibilidad de eliminar amigos.',
+        fotos: []
+      },
+      {
+        titulo: 'CRUD publicacion',
+        data: 'El usuario tiene la posibilidad de crear publicaciones las cuales pueden ver cualquier usuario de Netbook y les da la posibilidad de comentar o reaccionar a estas. También podrá eliminar la publicación o editarla, pero solo si él fue el creador.',
+        fotos: []
+      },
+      {
+        titulo: 'Comentar publicacion',
+        data: 'Un usuario tiene la posibilidad de crear uno o más comentarios en las publicaciones, los caracteres son limitados más los comentarios no, se cuenta con la posibilidad de eliminar el comentario.',
+        fotos: []
+      },
+      {
+        titulo: 'Reaccionar a publicacion',
+        data: 'El usuario puede darle "Me gusta" a las publicaciones y también podrá ver las personas que han reaccionado a las publicaciones.',
+        fotos: []
+      },
+      {
+        titulo: 'Perfil del usuario',
+        data: 'Cada usuario cuenta con un perfil en el cual podrá ver sus publicaciones, amigos y podrá editar sus detalles de perfil. También se cuenta con la posibilidad de ver el perfil de otros usuarios.',
+        fotos: []
+      }
+    ]
   },
   {
     titulo: 'GALERIA',

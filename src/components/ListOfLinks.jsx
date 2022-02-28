@@ -1,9 +1,6 @@
 import propTypes from 'prop-types'
-import { useLocation } from 'react-router-dom'
 
 const ListOfLinks = ({ ViewInPhone = false }) => {
-  const location = useLocation()
-  console.log(location)
   return (
     <div
       className={`sm:gap-4 flex-grow sm:flex-grow-0 ${

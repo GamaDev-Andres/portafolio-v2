@@ -5,7 +5,7 @@ const useNabBarFadeOut = () => {
 
   function navBarScrollController() {
     const navBarFooter = document.querySelector('#navFooter')
-    if (window) {
+    if (window && navBarFooter) {
       if (window.scrollY > scrollPosition.current) {
         navBarFooter.classList.add('translate-y-full')
         navBarFooter.classList.remove('-translate-y-0')

@@ -56,7 +56,7 @@ const CardProject = ({ project, withDetails = false }) => {
         {withDetails && (
           <Link
             className=" hover:shadow-lg hover:shadow-blue-300 text-sm text-center mx-auto block mt-4 border border-solid shadow-blue-200 shadow-md border-blue-400 px-6 py-2 rounded-full"
-            to="/project/barberapp"
+            to={`/project/${titulo}`}
             rel="noreferrer"
           >
             Ver más detalles
