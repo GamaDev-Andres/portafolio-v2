@@ -25,27 +25,44 @@ export const proyectos = [
       {
         titulo: 'Login y Registro del cliente',
         data: 'El cliente debe de crearse una cuenta para poder contar con los servicios de BARBERAPP, para esto se le brinda la posibilidad de hacerlo con un correo electrónico.',
-        fotos: []
+        fotos: [
+          'https://res.cloudinary.com/dapa84kxy/image/upload/v1646015192/portafolio/barberapp/90e0239c-e961-484e-b4ef-042d741e72e9_m7udyu.jpg',
+          'https://res.cloudinary.com/dapa84kxy/image/upload/v1644874961/portafolio/barberapp/barberapp_sdpgwl.png'
+        ]
       },
       {
         titulo: 'Agendar cita',
         data: 'El cliente tiene la posibilidad de agendar citas con el barbero que él prefiere y puede hacerlo de 2 formas, la primera es entrando a la página "agendar cita" y la otra es entrando en la página de "barbero" en donde podrá elegir a su barbero y agendar la cita directamente.',
-        fotos: []
+        fotos: [
+          'https://res.cloudinary.com/dapa84kxy/image/upload/v1646015165/portafolio/barberapp/e78ae585-a9d8-4e98-955d-85fc502cee0d_ubuoje.jpg',
+          'https://res.cloudinary.com/dapa84kxy/image/upload/v1646100418/portafolio/barberapp/agendar-barberapp-desk_oc67ox.png'
+        ]
       },
       {
         titulo: 'Ver citas',
         data: 'El cliente tiene la posibilidad de ver las citas que tiene agendadas y también ver en qué estado de encuentran, podrá ver si la cita fue aceptada, rechazada o caduco. Por otro lado, el barbero tiene la posibilidad de ver las citas que le han solicitado y decidir si aceptarlas o rechazarlas.',
-        fotos: []
+        fotos: [
+          'https://res.cloudinary.com/dapa84kxy/image/upload/v1646015153/portafolio/barberapp/c05b9c5d-e36c-4ab6-bfa6-e1881bbef6cc_rtxtto.jpg',
+          'https://res.cloudinary.com/dapa84kxy/image/upload/v1646100548/portafolio/barberapp/citas-barberapp-desk_fiskup.png'
+        ]
       },
       {
         titulo: 'Ver barberos',
         data: 'Solo el cliente tiene la posibilidad de ver los barberos disponibles y ver su foto o ir a su perfil y una breve descripción de ellos, con esto el cliente podrá decidir con más seguridad con quien quiere agendar si cita.',
-        fotos: []
+        fotos: [
+          'https://res.cloudinary.com/dapa84kxy/image/upload/v1646015160/portafolio/barberapp/1453c605-7799-45a1-bdb3-7db906ec2440_pwnnhw.jpg',
+          'https://res.cloudinary.com/dapa84kxy/image/upload/v1646100662/portafolio/barberapp/barberos-barberapp-desk_tqbcqo.png',
+          'https://res.cloudinary.com/dapa84kxy/image/upload/v1646100753/portafolio/barberapp/Image_4_pqyacf.png'
+        ]
       },
       {
         titulo: 'Perfil de barbero',
         data: 'Solo los barberos cuentan con un perfil en el que pueden hablar de ellos y de su experiencia, además tienen la posibilidad de agregar fotos de los cortes que han realizado para que el cliente pueda ver su trabajo.',
-        fotos: []
+        fotos: [
+          'https://res.cloudinary.com/dapa84kxy/image/upload/v1646015113/portafolio/barberapp/a10fa6e2-39da-455d-81d0-11f4d5ca4cfc_ouzbkh.jpg',
+          'https://res.cloudinary.com/dapa84kxy/image/upload/c_scale,h_1079/v1646097636/portafolio/barberapp/637b8db2-1301-4f12-bb8c-177005cb2c48_sy9vix.jpg',
+          'https://res.cloudinary.com/dapa84kxy/image/upload/v1646015074/portafolio/barberapp/879b6616-b450-43ff-8f5f-e11607ec392f_uhussk.jpg'
+        ]
       }
     ]
   },

@@ -23,7 +23,7 @@ const Project = () => {
           codigo={proyecto.codigo}
         />
         <Funcionalidades proyecto={proyecto} />
-        <div>
+        <div className="grid grid-cols-1 gap-4">
           {proyecto.detalles.map((detalle) => (
             <SectionInProject
               key={detalle.titulo}
