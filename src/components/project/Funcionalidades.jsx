@@ -6,10 +6,12 @@ const Funcionalidades = ({ proyecto }) => {
   }
   return (
     <div>
-      <h2 className="font-bold text-letra text-lg">Funcionalidades</h2>
-      <ul className="pl-4">
+      <h2 className="font-bold text-letra dark:text-letraDark text-lg">
+        Funcionalidades
+      </h2>
+      <ul className="pl-4 inline-block">
         {proyecto.detalles.map((el) => (
-          <li className="list-disc" key={el.titulo}>
+          <li className="list-disc hover:text-blue-400 " key={el.titulo}>
             <a className="underline" href={`#${formatId(el.titulo)}`}>
               {el.titulo}
             </a>

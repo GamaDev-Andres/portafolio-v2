@@ -19,7 +19,7 @@ export const proyectos = [
     detalles: [
       {
         titulo: 'Barbero y cliente',
-        data: 'BARBERAPP nos da brinda la posibilidad de que tanto clientes como barberos tengan una cuenta. Un cliente podra agendar citas con el barbero de su preferencia y por otro lado el barbero en su cuenta de BARBBERAPP podra ver estas citas agendadas y decidir si aceptarlas o rechazarlas',
+        data: 'BARBERAPP nos da brinda la posibilidad de que tanto clientes como barberos tengan una cuenta. Un cliente podrá agendar citas con el barbero de su preferencia y por otro lado el barbero en su cuenta de BARBBERAPP podrá ver estas citas agendadas y decidir si aceptarlas o rechazarlas.',
         fotos: [
           'https://res.cloudinary.com/dapa84kxy/image/upload/v1646015171/portafolio/barberapp/64f2c810-73b7-4dfd-9c12-07d35d36e862_txgsvq.jpg',
           'https://res.cloudinary.com/dapa84kxy/image/upload/v1646153693/portafolio/barberapp/menu-user-desk_jtgfwl.png',

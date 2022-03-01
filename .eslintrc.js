@@ -31,7 +31,7 @@ module.exports = {
       files: ['*.test.js'],
       rules: {
         'no-undef': 'off',
-        'multiline-ternary': 'off'
+        'multiline-ternary': ['warn', 'never']
       }
     }
   ]

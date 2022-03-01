@@ -3,7 +3,7 @@ import Habilidad from './Habilidad'
 
 const SectionHabilidades = () => {
   return (
-    <section id="habilidades">
+    <section id="habilidades" className="sm:scroll-m-24 md:scroll-m-14">
       <TitleSection textInSpan={'Mis'}>Habilidades</TitleSection>
       <div className="flex flex-col gap-2">
         <article className="flex flex-col gap-2">
