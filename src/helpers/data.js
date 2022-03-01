@@ -18,9 +18,24 @@ export const proyectos = [
       'https://res.cloudinary.com/dapa84kxy/image/upload/v1644874961/portafolio/barberapp/barberapp_sdpgwl.png',
     detalles: [
       {
+        titulo: 'Barbero y cliente',
+        data: 'BARBERAPP nos da brinda la posibilidad de que tanto clientes como barberos tengan una cuenta. Un cliente podra agendar citas con el barbero de su preferencia y por otro lado el barbero en su cuenta de BARBBERAPP podra ver estas citas agendadas y decidir si aceptarlas o rechazarlas',
+        fotos: [
+          'https://res.cloudinary.com/dapa84kxy/image/upload/v1646015171/portafolio/barberapp/64f2c810-73b7-4dfd-9c12-07d35d36e862_txgsvq.jpg',
+          'https://res.cloudinary.com/dapa84kxy/image/upload/v1646153693/portafolio/barberapp/menu-user-desk_jtgfwl.png',
+          'https://res.cloudinary.com/dapa84kxy/image/upload/v1646015130/portafolio/barberapp/43985bb6-9674-48b4-9c1a-53ac5c329fbc_lstegh.jpg',
+          'https://res.cloudinary.com/dapa84kxy/image/upload/v1646153692/portafolio/barberapp/menu-barber-desk_p0d8gq.png'
+        ]
+      },
+      {
         titulo: 'Login y Registro del barbero',
         data: 'El barbero podrá ingresar a su cuenta normalmente, solo debe cambiar la opción a modo barbero. Pero para registrar un barbero debe hacerlo un administrador de la página que cuente con la contraseña de "administrador" que es requerida para crear un user de barbero.',
-        fotos: []
+        fotos: [
+          'https://res.cloudinary.com/dapa84kxy/image/upload/v1646153268/portafolio/barberapp/d2134e1a-b32e-4874-9ed9-3100704bd5f2_x39y1s.jpg',
+          'https://res.cloudinary.com/dapa84kxy/image/upload/v1646153148/portafolio/barberapp/registraradmin-desk_mzkcy4.png',
+          'https://res.cloudinary.com/dapa84kxy/image/upload/v1646153264/portafolio/barberapp/79bf791f-0f1c-4f7d-9e3c-15e3fdd527e3_jwoh5m.jpg',
+          'https://res.cloudinary.com/dapa84kxy/image/upload/v1646153147/portafolio/barberapp/registrobarbero-desk_htsmwn.png'
+        ]
       },
       {
         titulo: 'Login y Registro del cliente',
@@ -79,32 +94,55 @@ export const proyectos = [
       {
         titulo: 'Login y Registro',
         data: 'El usuario debe crear una cuenta para poder ver el contenido principal de Netbook. Esta cuenta puede ser creada por email o Google y si lo hace con Google se tomará su foto de perfil como la de Netbook.',
-        fotos: []
+        fotos: [
+          'https://res.cloudinary.com/dapa84kxy/image/upload/v1646015471/portafolio/netbook/cfb26212-3d77-46aa-9094-a9266e1eb35f_iqmfpo.jpg',
+          'https://res.cloudinary.com/dapa84kxy/image/upload/v1646015547/portafolio/netbook/24370910-6487-475f-803c-3e9d3c81f2e6_bpkyje.jpg'
+        ]
       },
       {
         titulo: 'Agregar amigos',
         data: 'El usuario podrá agregar amigos para así poder seguir sus publicaciones y también tiene la posibilidad de eliminar amigos.',
-        fotos: []
+        fotos: [
+          'https://res.cloudinary.com/dapa84kxy/image/upload/v1646015491/portafolio/netbook/82cb277a-9686-45c5-aaea-878f31e22fb2_f2tvwk.jpg',
+          'https://res.cloudinary.com/dapa84kxy/image/upload/v1646156160/portafolio/netbook/buscaramigo-netbool_m3ajvq.png'
+        ]
       },
       {
         titulo: 'CRUD publicacion',
         data: 'El usuario tiene la posibilidad de crear publicaciones las cuales pueden ver cualquier usuario de Netbook y les da la posibilidad de comentar o reaccionar a estas. También podrá eliminar la publicación o editarla, pero solo si él fue el creador.',
-        fotos: []
+        fotos: [
+          'https://res.cloudinary.com/dapa84kxy/image/upload/v1646015511/portafolio/netbook/df194257-90a8-4f03-afcb-ccb2baa2bac7_drskej.jpg',
+          'https://res.cloudinary.com/dapa84kxy/image/upload/v1646156249/portafolio/netbook/publicar-desk_y49ifp.png',
+          'https://res.cloudinary.com/dapa84kxy/image/upload/v1646156337/portafolio/netbook/edit-post_fry5df.png',
+          'https://res.cloudinary.com/dapa84kxy/image/upload/v1646015503/portafolio/netbook/08d13c32-4507-4f50-b8a5-f2caef557a80_qsd2qs.jpg'
+        ]
       },
       {
         titulo: 'Comentar publicacion',
         data: 'Un usuario tiene la posibilidad de crear uno o más comentarios en las publicaciones, los caracteres son limitados más los comentarios no, se cuenta con la posibilidad de eliminar el comentario.',
-        fotos: []
+        fotos: [
+          'https://res.cloudinary.com/dapa84kxy/image/upload/v1646015497/portafolio/netbook/4b9e0f87-b65e-4b96-8b35-e0def5410cc9_aidfgh.jpg',
+          'https://res.cloudinary.com/dapa84kxy/image/upload/v1646156459/portafolio/netbook/coments-desk_xl1s3l.png'
+        ]
       },
       {
         titulo: 'Reaccionar a publicacion',
         data: 'El usuario puede darle "Me gusta" a las publicaciones y también podrá ver las personas que han reaccionado a las publicaciones.',
-        fotos: []
+        fotos: [
+          'https://res.cloudinary.com/dapa84kxy/image/upload/v1646156708/portafolio/netbook/reacciones_tpa2bh.png',
+          'https://res.cloudinary.com/dapa84kxy/image/upload/v1646156709/portafolio/netbook/listreacciones_gl92lw.png'
+        ]
       },
       {
         titulo: 'Perfil del usuario',
         data: 'Cada usuario cuenta con un perfil en el cual podrá ver sus publicaciones, amigos y podrá editar sus detalles de perfil. También se cuenta con la posibilidad de ver el perfil de otros usuarios.',
-        fotos: []
+        fotos: [
+          'https://res.cloudinary.com/dapa84kxy/image/upload/v1646016701/portafolio/netbook/perfil-netbook-desk_ouzk99.png',
+          'https://res.cloudinary.com/dapa84kxy/image/upload/v1646016692/portafolio/netbook/perfil-netbook-desk2_zazvhd.png',
+          'https://res.cloudinary.com/dapa84kxy/image/upload/v1646015538/portafolio/netbook/ef871a8e-5a00-4a8d-8ca3-91dc1edb6dab_ehmtvq.jpg',
+          'https://res.cloudinary.com/dapa84kxy/image/upload/v1646015481/portafolio/netbook/36ec0bc2-64b9-48e1-b765-1815a596c60e_prrgej.jpg',
+          'https://res.cloudinary.com/dapa84kxy/image/upload/v1646015543/portafolio/netbook/3a261fab-f547-4d9e-968b-e36c41b2b495_xfysck.jpg'
+        ]
       }
     ]
   },

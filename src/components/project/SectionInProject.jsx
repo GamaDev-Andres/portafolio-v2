@@ -7,15 +7,18 @@ const SectionInProject = ({ titulo, descripcion, arrImgs }) => {
   const closeModal = () => {
     setIsOpenModal(false)
   }
+  const id = titulo.split(' ').join('')
   return (
-    <section className="text-fondos">
-      <h3 className="uppercase text-blue-400 font-medium">{titulo}</h3>
+    <section id={id} className="text-fondos scroll-m-14">
+      <h3 className="uppercase text-blue-400 font-semibold text-2xl my-4">
+        {titulo}
+      </h3>
       <p>{descripcion}</p>
       <div className="flex flex-wrap pt-4 gap-4 items-center">
         {arrImgs.map((el) => (
           <img
             onClick={() => setIsOpenModal(el)}
-            className="object-cover max-h-[400px]  mx-auto ring-1"
+            className="cursor-pointer hover:scale-[1.01] transition-transform duration-300 object-cover max-h-[400px]  mx-auto ring-1"
             src={el}
             alt="screenshot-proyecto"
             key={el}
