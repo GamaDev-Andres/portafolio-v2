@@ -1,3 +1,5 @@
+import { useEffect } from 'react'
+import useNabBarFadeOut from '../../hooks/useNabBarFadeOut'
 import NavBar from '../NavBar'
 import NavBarFooter from '../NavBarFooter'
 import SectionAboutMe from './sectionAboutMe/SectionAboutMe'
@@ -6,6 +8,16 @@ import SectionPresentation from './sectionPresentation/SectionPresentation'
 import SectionProjects from './sectionProjects/SectionProjects'
 
 const Home = () => {
+  const { navBarScrollController } = useNabBarFadeOut()
+
+  useEffect(() => {
+    if (document.querySelector('#navFooter')) {
+      window.addEventListener('scroll', navBarScrollController)
+    }
+    return () => {
+      window.removeEventListener('scroll', navBarScrollController)
+    }
+  }, [])
   return (
     <>
       <NavBar />
