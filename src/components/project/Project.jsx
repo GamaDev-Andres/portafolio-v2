@@ -4,6 +4,7 @@ import Funcionalidades from './Funcionalidades'
 import NavProject from './NavProject'
 import SectionInProject from './SectionInProject'
 import TitlePageProject from './TitlePageProject'
+import { Helmet } from 'react-helmet-async'
 
 const Project = () => {
   const { id } = useParams()
@@ -15,6 +16,10 @@ const Project = () => {
   }
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>{`GamaDev | ${proyecto.titulo}`}</title>
+      </Helmet>
       <NavProject />
       <main className="mt-[56px]  px-4 flex flex-col gap-4">
         <TitlePageProject

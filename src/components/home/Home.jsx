@@ -1,4 +1,5 @@
 import { useEffect } from 'react'
+import { Helmet } from 'react-helmet-async'
 import useNabBarFadeOut from '../../hooks/useNabBarFadeOut'
 import NavBar from '../NavBar'
 import NavBarFooter from '../NavBarFooter'
@@ -20,6 +21,9 @@ const Home = () => {
   }, [])
   return (
     <>
+      <Helmet>
+        <title>GamaDev</title>
+      </Helmet>
       <NavBar />
       <main className="px-4 flex flex-col gap-4">
         <SectionPresentation />
