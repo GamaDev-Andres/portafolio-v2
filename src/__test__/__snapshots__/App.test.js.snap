@@ -2,12 +2,966 @@
 
 exports[`probando <App/> debe montarse correctamente 1`] = `
 <div
-  className="h-screen flex justify-center items-center bg-blue-500"
+  className="bg-base dark:bg-baseDark transition-colors duration-150 text-letra dark:text-letraDark min-w-screen"
 >
-  <h1
-    className="p-8 rounded-2xl text-white text-5xl font-bold  bg-violet-900"
+  <div
+    className="grid grid-rows-layout grid-cols-1 max-w-[1256px] min-h-screen mx-auto"
   >
-    Iniciando portafolio-v2
-  </h1>
+    Array [
+      "",
+      <nav
+        className="sm:sticky w-full sm:top-0 sm:left-0 z-10"
+      >
+        <div
+          className="transition-colors duration-150 flex justify-center sm:justify-between relative sm:flex-col md:flex-row max-w-[1256px] mx-auto bg-base dark:bg-baseDark items-center px-4 py-2"
+        >
+          <a
+            href="/"
+            onClick={[Function]}
+          >
+            <h1
+              className="text-letra dark:text-letraDark font-black text-4xl px-4 text-center"
+            >
+              GamaDev
+            </h1>
+          </a>
+          <div
+            className="flex items-center dark:text-letraDark  justify-end gap-4"
+          >
+            <div
+              className="sm:gap-4 flex-grow sm:flex-grow-0 hidden justify-end sm:flex"
+            >
+              <a
+                className="sm:hover:bg-blue-200 dark:sm:hover:bg-gris flex flex-col sm:flex-row items-center transition-colors duration-150 rounded-lg sm:px-4 sm:py-2 py-0 font-medium"
+                href="/#inicio"
+              >
+                <i
+                  className="sm:mr-2 fa-solid fa-house"
+                />
+                <span
+                  className="false"
+                >
+                  inicio
+                </span>
+              </a>
+              <a
+                className="sm:hover:bg-blue-200 dark:sm:hover:bg-gris flex flex-col sm:flex-row items-center transition-colors duration-150 rounded-lg sm:px-4 sm:py-2 py-0 font-medium"
+                href="/#sobremi"
+              >
+                <i
+                  className="sm:mr-2 fa-solid fa-user"
+                />
+                <span
+                  className="false"
+                >
+                  sobre mí
+                </span>
+              </a>
+              <a
+                className="sm:hover:bg-blue-200 dark:sm:hover:bg-gris flex flex-col sm:flex-row items-center transition-colors duration-150 rounded-lg sm:px-4 sm:py-2 py-0 font-medium"
+                href="/#habilidades"
+              >
+                <i
+                  className="sm:mr-2 fa-solid fa-laptop-code"
+                />
+                <span
+                  className="false"
+                >
+                  habilidades
+                </span>
+              </a>
+              <a
+                className="sm:hover:bg-blue-200 dark:sm:hover:bg-gris flex flex-col sm:flex-row items-center transition-colors duration-150 rounded-lg sm:px-4 sm:py-2 py-0 font-medium"
+                href="/#proyectos"
+              >
+                <i
+                  className="sm:mr-2 fa-solid fa-briefcase"
+                />
+                <span
+                  className="false"
+                >
+                  proyectos
+                </span>
+              </a>
+            </div>
+            <button
+              className=" z-20 absolute top-2 bottom-2 right-4 sm:static "
+              onClick={[Function]}
+            >
+              <i
+                className="w-5 h-5 text-black fa-solid fa-moon"
+              />
+            </button>
+          </div>
+        </div>
+      </nav>,
+      <main
+        className="px-4 flex flex-col gap-4"
+      >
+        <section
+          className="sm:flex sm:justify-center sm:items-center md:gap-8 sm:min-h-screen block sm:scroll-m-24 md:scroll-m-14"
+          id="inicio"
+        >
+          <figure
+            className="aspect-square p-4 max-w-xs mx-auto rounded-full"
+          >
+            <img
+              alt="foto Andres Gama"
+              className="w-full object-cover object-top  shadow-2xl shadow-blue-200 h-full rounded-full"
+              src={Object {}}
+            />
+          </figure>
+          <div
+            className="max-w-2xl"
+          >
+            Array [
+              <span
+                className="uppercase font-medium text-xl text-fondos"
+              >
+                Hola soy
+              </span>,
+              <h2
+                className="my-4 uppercase font-bold text-3xl "
+              >
+                <span
+                  className="text-blue-400"
+                >
+                  andres
+                </span>
+                 gama
+              </h2>,
+              <p
+                className="whitespace-pre-wrap text-fondos"
+              >
+                Un
+                <span
+                  className="text-blue-400 font-medium"
+                >
+                   Front-End Web Developer 
+                </span>
+                apasionado por el mundo del desarrollo y por crear aplicaciones e interfaces que aporten y brinden grandes experiencias.
+              </p>,
+            ]
+            <div
+              className="py-4 gap-4 flex justify-start items-center flex-wrap"
+            >
+              <a
+                className=" text-sm border border-solid shadow-blue-200 shadow-lg border-blue-400 px-6 py-2 rounded-full"
+                href="https://drive.google.com/file/d/1IIUutqCGZL_KSN7NqE-JdRYQl_6Qaqhd/view"
+                rel="noreferrer"
+                target="_blank"
+              >
+                Resumé
+              </a>
+              <a
+                className="p-2 flex flex-col justify-center items-center shadow-md shadow-blue-200 border border-solid border-blue-100"
+                href="https://github.com/GamaDev-Andres"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <i
+                  className="fa-brands fa-github"
+                />
+                <span
+                  className="text-xs"
+                >
+                  Github
+                </span>
+              </a>
+              <a
+                className="p-2 flex flex-col justify-center items-center shadow-md shadow-blue-200 border border-solid border-blue-100"
+                href="https://www.linkedin.com/in/andres-gama/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <i
+                  className="fa-brands fa-linkedin"
+                />
+                <span
+                  className="text-xs"
+                >
+                  LinkedIn
+                </span>
+              </a>
+            </div>
+          </div>
+        </section>
+        <div
+          className="grid grid-cols-1 md:gap-8 md:grid-cols-2"
+        >
+          <section
+            className="sm:scroll-m-24 md:scroll-m-14"
+            id="sobremi"
+          >
+            <h2
+              className="my-4 uppercase font-bold text-3xl md:text-center"
+            >
+              sobre
+               
+              <span
+                className="text-blue-400"
+              >
+                mi
+              </span>
+            </h2>
+            <div
+              className="text-fondos flex flex-col gap-4"
+            >
+              <article
+                className="flex flex-col gap-2"
+              >
+                <p>
+                  <span
+                    className="text-blue-400 font-medium"
+                  >
+                    Quien soy: 
+                  </span>
+                  Mi nombre es Andres Gama, me apasiona encontrar grandes retos que me
+          permitan crecer profesional y personalmente, la programación me
+          permite enfocarme en esto.Actualmente tengo 21 años y sé que lograre
+          que mis conocimientos sean participes de grandes, útiles y reconocidos
+          proyectos.
+                </p>
+                <p>
+                  En mí podras ver a un chico ansioso por aprender y dispuesto a
+          afrontar complejas curvas de aprendizaje y gracias a mi constancia y
+          disciplina veras a alguien creciendo constantemente.
+                </p>
+              </article>
+              <button
+                className=" mx-auto block text-blue-400"
+                onClick={[Function]}
+              >
+                Ver mas
+                 
+                <i
+                  className="fa-solid fa-arrow-down"
+                />
+              </button>
+            </div>
+          </section>
+          <section
+            className="sm:scroll-m-24 md:scroll-m-14"
+            id="habilidades"
+          >
+            <h2
+              className="my-4 uppercase font-bold text-3xl md:text-center"
+            >
+              <span
+                className="text-blue-400"
+              >
+                Mis
+              </span>
+               
+              Habilidades
+            </h2>
+            <div
+              className="flex flex-col gap-2"
+            >
+              <article
+                className="flex flex-col gap-2"
+              >
+                <div
+                  className="flex flex-col gap-2"
+                >
+                  <div>
+                    <span
+                      className="font-medium"
+                    >
+                      Desarrollo front-end
+                    </span>
+                    <div
+                      className="bg-fondos w-full  flex  rounded-full"
+                    >
+                      <div
+                        className="bg-letra  w-[80%] rounded-full p-1"
+                      >
+                        <span
+                          className="text-white w-full text-center block "
+                        >
+                          80
+                           %
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <span
+                      className="font-medium"
+                    >
+                      Desarrollo full-stack
+                    </span>
+                    <div
+                      className="bg-fondos w-full  flex  rounded-full"
+                    >
+                      <div
+                        className="bg-letra  w-[70%] rounded-full p-1"
+                      >
+                        <span
+                          className="text-white w-full text-center block "
+                        >
+                          70
+                           %
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <span
+                      className="font-medium"
+                    >
+                      Desarrollo web
+                    </span>
+                    <div
+                      className="bg-fondos w-full  flex  rounded-full"
+                    >
+                      <div
+                        className="bg-letra  w-[70%] rounded-full p-1"
+                      >
+                        <span
+                          className="text-white w-full text-center block "
+                        >
+                          70
+                           %
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <span
+                      className="font-medium"
+                    >
+                      Desarrollo back-end
+                    </span>
+                    <div
+                      className="bg-fondos w-full  flex  rounded-full"
+                    >
+                      <div
+                        className="bg-letra  w-[60%] rounded-full p-1"
+                      >
+                        <span
+                          className="text-white w-full text-center block "
+                        >
+                          60
+                           %
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </section>
+        </div>
+        <section
+          className="sm:scroll-m-24 md:scroll-m-14"
+          id="proyectos"
+        >
+          <h2
+            className="my-4 uppercase font-bold text-3xl md:text-center"
+          >
+            mis
+             
+            <span
+              className="text-blue-400"
+            >
+              proyectos
+            </span>
+          </h2>
+          <div
+            className="grid grid-cols-1 md:grid-cols-layoutCards gap-8"
+          >
+            <div
+              className=" shadow-blue-200 shadow-md rounded-2xl rounded-t-none transition-colors duration-150 bg-white dark:bg-baseDark text-fondos"
+            >
+              <a
+                className="w-full block aspect-video"
+                href="https://barberappag.netlify.app/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <img
+                  alt="project"
+                  className="w-full aspect-video object-cover"
+                  src="https://res.cloudinary.com/dapa84kxy/image/upload/v1644874961/portafolio/barberapp/barberapp_sdpgwl.png"
+                />
+              </a>
+              <div
+                className="px-4 pb-4"
+              >
+                <div
+                  className="relative py-2 flex justify-center items-center"
+                >
+                  <a
+                    className="font-bold text-blue-400 text-center mx-auto text-xl"
+                    href="https://barberappag.netlify.app/"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    BARBERAPP
+                     
+                    <i
+                      className="text-sm fa-solid fa-link dark:text-letraDark text-fondos"
+                    />
+                  </a>
+                  <a
+                    className="absolute top-2 right-0 text-xl block text-letra"
+                    href="https://github.com/GamaDev-Andres/BarberApp-fe"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    <i
+                      className="dark:text-letraDark fa-brands fa-github"
+                    />
+                  </a>
+                </div>
+                <div>
+                  <h3
+                    className=" dark:text-letraDark text-letra font-medium"
+                  >
+                    Descripción
+                  </h3>
+                  <p>
+                    Aplicación realizada con el stack MERN y styled components,
+     enfocada en la administración de una barbería en donde el cliente tiene 
+     permitido agendar una cita con un barbero basándose en su perfil ,
+      cortes o calificación de otros clientes.
+                  </p>
+                </div>
+                <div>
+                  <h3
+                    className="text-letra font-medium dark:text-letraDark"
+                  >
+                    Tecnologias implementadas
+                  </h3>
+                  <ul
+                    className="flex gap-2 flex-wrap py-2"
+                  >
+                    <li
+                      className="px-2 py-1 border border-bordes rounded-full"
+                      key="React"
+                    >
+                      <span>
+                        React
+                      </span>
+                    </li>
+                    <li
+                      className="px-2 py-1 border border-bordes rounded-full"
+                      key="Express"
+                    >
+                      <span>
+                        Express
+                      </span>
+                    </li>
+                    <li
+                      className="px-2 py-1 border border-bordes rounded-full"
+                      key="StyledComponents"
+                    >
+                      <span>
+                        StyledComponents
+                      </span>
+                    </li>
+                    <li
+                      className="px-2 py-1 border border-bordes rounded-full"
+                      key="MongoDb"
+                    >
+                      <span>
+                        MongoDb
+                      </span>
+                    </li>
+                    <li
+                      className="px-2 py-1 border border-bordes rounded-full"
+                      key="Reducers"
+                    >
+                      <span>
+                        Reducers
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+                <a
+                  className=" hover:shadow-lg hover:shadow-blue-300 text-sm text-center mx-auto block mt-4 border border-solid shadow-blue-200 shadow-md border-blue-400 px-6 py-2 rounded-full"
+                  href="/project/BARBERAPP"
+                  onClick={[Function]}
+                  rel="noreferrer"
+                >
+                  Ver más detalles
+                </a>
+              </div>
+            </div>
+            <div
+              className=" shadow-blue-200 shadow-md rounded-2xl rounded-t-none transition-colors duration-150 bg-white dark:bg-baseDark text-fondos"
+            >
+              <a
+                className="w-full block aspect-video"
+                href="https://agnetbook.netlify.app/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <img
+                  alt="project"
+                  className="w-full aspect-video object-cover"
+                  src="https://res.cloudinary.com/dapa84kxy/image/upload/v1644874998/portafolio/netbook/netbook_gus84s.png"
+                />
+              </a>
+              <div
+                className="px-4 pb-4"
+              >
+                <div
+                  className="relative py-2 flex justify-center items-center"
+                >
+                  <a
+                    className="font-bold text-blue-400 text-center mx-auto text-xl"
+                    href="https://agnetbook.netlify.app/"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    NETBOOK
+                     
+                    <i
+                      className="text-sm fa-solid fa-link dark:text-letraDark text-fondos"
+                    />
+                  </a>
+                  <a
+                    className="absolute top-2 right-0 text-xl block text-letra"
+                    href="https://github.com/GamaDev-Andres/network-social-react"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    <i
+                      className="dark:text-letraDark fa-brands fa-github"
+                    />
+                  </a>
+                </div>
+                <div>
+                  <h3
+                    className=" dark:text-letraDark text-letra font-medium"
+                  >
+                    Descripción
+                  </h3>
+                  <p>
+                    Mini clon de una red social realizado con React, Redux y firebase, me baso en ciertas funcionalidades de Facebook, tales como, publicaciones, likes, comentarios y perfiles individuales.
+                  </p>
+                </div>
+                <div>
+                  <h3
+                    className="text-letra font-medium dark:text-letraDark"
+                  >
+                    Tecnologias implementadas
+                  </h3>
+                  <ul
+                    className="flex gap-2 flex-wrap py-2"
+                  >
+                    <li
+                      className="px-2 py-1 border border-bordes rounded-full"
+                      key="React"
+                    >
+                      <span>
+                        React
+                      </span>
+                    </li>
+                    <li
+                      className="px-2 py-1 border border-bordes rounded-full"
+                      key="Firebase"
+                    >
+                      <span>
+                        Firebase
+                      </span>
+                    </li>
+                    <li
+                      className="px-2 py-1 border border-bordes rounded-full"
+                      key="Redux"
+                    >
+                      <span>
+                        Redux
+                      </span>
+                    </li>
+                    <li
+                      className="px-2 py-1 border border-bordes rounded-full"
+                      key="Sass"
+                    >
+                      <span>
+                        Sass
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+                <a
+                  className=" hover:shadow-lg hover:shadow-blue-300 text-sm text-center mx-auto block mt-4 border border-solid shadow-blue-200 shadow-md border-blue-400 px-6 py-2 rounded-full"
+                  href="/project/NETBOOK"
+                  onClick={[Function]}
+                  rel="noreferrer"
+                >
+                  Ver más detalles
+                </a>
+              </div>
+            </div>
+            <div
+              className=" shadow-blue-200 shadow-md rounded-2xl rounded-t-none transition-colors duration-150 bg-white dark:bg-baseDark text-fondos"
+            >
+              <a
+                className="w-full block aspect-video"
+                href="https://practica-galeria.web.app/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <img
+                  alt="project"
+                  className="w-full aspect-video object-cover"
+                  src="https://res.cloudinary.com/dapa84kxy/image/upload/v1644875042/portafolio/galeriareact/reactFirebase_xjiauw.png"
+                />
+              </a>
+              <div
+                className="px-4 pb-4"
+              >
+                <div
+                  className="relative py-2 flex justify-center items-center"
+                >
+                  <a
+                    className="font-bold text-blue-400 text-center mx-auto text-xl"
+                    href="https://practica-galeria.web.app/"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    GALERIA
+                     
+                    <i
+                      className="text-sm fa-solid fa-link dark:text-letraDark text-fondos"
+                    />
+                  </a>
+                  <a
+                    className="absolute top-2 right-0 text-xl block text-letra"
+                    href="https://github.com/GamaDev-Andres/react-galeria"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    <i
+                      className="dark:text-letraDark fa-brands fa-github"
+                    />
+                  </a>
+                </div>
+                <div>
+                  <h3
+                    className=" dark:text-letraDark text-letra font-medium"
+                  >
+                    Descripción
+                  </h3>
+                  <p>
+                    Simulación de una galería web realizada con React y Firebase , la aplicación se basa en la posibilidad de crear álbumes y tomarse fotos directamente en el álbum deseado y también tiene la posibilidad de buscar imágenes en una API y guardarlas en un álbum.
+                  </p>
+                </div>
+                <div>
+                  <h3
+                    className="text-letra font-medium dark:text-letraDark"
+                  >
+                    Tecnologias implementadas
+                  </h3>
+                  <ul
+                    className="flex gap-2 flex-wrap py-2"
+                  >
+                    <li
+                      className="px-2 py-1 border border-bordes rounded-full"
+                      key="React"
+                    >
+                      <span>
+                        React
+                      </span>
+                    </li>
+                    <li
+                      className="px-2 py-1 border border-bordes rounded-full"
+                      key="Firebase"
+                    >
+                      <span>
+                        Firebase
+                      </span>
+                    </li>
+                    <li
+                      className="px-2 py-1 border border-bordes rounded-full"
+                      key="StyledComponents"
+                    >
+                      <span>
+                        StyledComponents
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div
+              className=" shadow-blue-200 shadow-md rounded-2xl rounded-t-none transition-colors duration-150 bg-white dark:bg-baseDark text-fondos"
+            >
+              <a
+                className="w-full block aspect-video"
+                href="https://afmispelisgi.netlify.app/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <img
+                  alt="project"
+                  className="w-full aspect-video object-cover"
+                  src="https://res.cloudinary.com/dapa84kxy/image/upload/v1644875064/portafolio/mispelis/imagepelisOMDB_cchblf.png"
+                />
+              </a>
+              <div
+                className="px-4 pb-4"
+              >
+                <div
+                  className="relative py-2 flex justify-center items-center"
+                >
+                  <a
+                    className="font-bold text-blue-400 text-center mx-auto text-xl"
+                    href="https://afmispelisgi.netlify.app/"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    MIS PELIS
+                     
+                    <i
+                      className="text-sm fa-solid fa-link dark:text-letraDark text-fondos"
+                    />
+                  </a>
+                  <a
+                    className="absolute top-2 right-0 text-xl block text-letra"
+                    href="https://github.com/GamaDev-Andres/PeliculasOMDB"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    <i
+                      className="dark:text-letraDark fa-brands fa-github"
+                    />
+                  </a>
+                </div>
+                <div>
+                  <h3
+                    className=" dark:text-letraDark text-letra font-medium"
+                  >
+                    Descripción
+                  </h3>
+                  <p>
+                    Proyecto de películas hecho con Javascript, Sass y webpack .En este proyecto me baso en un diseño de una pagina funcional, consulto la API IMDB que me provee información tanto de series como de películas con sus respectivos tráileres y sinopsis. Implemento buscadores y lista de favoritos.
+                  </p>
+                </div>
+                <div>
+                  <h3
+                    className="text-letra font-medium dark:text-letraDark"
+                  >
+                    Tecnologias implementadas
+                  </h3>
+                  <ul
+                    className="flex gap-2 flex-wrap py-2"
+                  >
+                    <li
+                      className="px-2 py-1 border border-bordes rounded-full"
+                      key="Html"
+                    >
+                      <span>
+                        Html
+                      </span>
+                    </li>
+                    <li
+                      className="px-2 py-1 border border-bordes rounded-full"
+                      key="Sass"
+                    >
+                      <span>
+                        Sass
+                      </span>
+                    </li>
+                    <li
+                      className="px-2 py-1 border border-bordes rounded-full"
+                      key="Webpack"
+                    >
+                      <span>
+                        Webpack
+                      </span>
+                    </li>
+                    <li
+                      className="px-2 py-1 border border-bordes rounded-full"
+                      key="Javascript"
+                    >
+                      <span>
+                        Javascript
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div
+              className=" shadow-blue-200 shadow-md rounded-2xl rounded-t-none transition-colors duration-150 bg-white dark:bg-baseDark text-fondos"
+            >
+              <a
+                className="w-full block aspect-video"
+                href="https://findyourgames.netlify.app/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <img
+                  alt="project"
+                  className="w-full aspect-video object-cover"
+                  src="https://res.cloudinary.com/dapa84kxy/image/upload/v1644875081/portafolio/findyourgames/proyecto1_vsncjy.png"
+                />
+              </a>
+              <div
+                className="px-4 pb-4"
+              >
+                <div
+                  className="relative py-2 flex justify-center items-center"
+                >
+                  <a
+                    className="font-bold text-blue-400 text-center mx-auto text-xl"
+                    href="https://findyourgames.netlify.app/"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    FINDYOURGAMES
+                     
+                    <i
+                      className="text-sm fa-solid fa-link dark:text-letraDark text-fondos"
+                    />
+                  </a>
+                  <a
+                    className="absolute top-2 right-0 text-xl block text-letra"
+                    href="https://github.com/GamaDev-Andres/FindYourGames"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    <i
+                      className="dark:text-letraDark fa-brands fa-github"
+                    />
+                  </a>
+                </div>
+                <div>
+                  <h3
+                    className=" dark:text-letraDark text-letra font-medium"
+                  >
+                    Descripción
+                  </h3>
+                  <p>
+                    Proyecto realizado con Html, css, javascript y gulp. En este proyecto consulto una API de videojuegos y organizo su información en una interfaz que me permite hacer búsqueda y filtrado de los videojuegos disponibles.
+                  </p>
+                </div>
+                <div>
+                  <h3
+                    className="text-letra font-medium dark:text-letraDark"
+                  >
+                    Tecnologias implementadas
+                  </h3>
+                  <ul
+                    className="flex gap-2 flex-wrap py-2"
+                  >
+                    <li
+                      className="px-2 py-1 border border-bordes rounded-full"
+                      key="Html"
+                    >
+                      <span>
+                        Html
+                      </span>
+                    </li>
+                    <li
+                      className="px-2 py-1 border border-bordes rounded-full"
+                      key="Sass"
+                    >
+                      <span>
+                        Sass
+                      </span>
+                    </li>
+                    <li
+                      className="px-2 py-1 border border-bordes rounded-full"
+                      key="Gulp"
+                    >
+                      <span>
+                        Gulp
+                      </span>
+                    </li>
+                    <li
+                      className="px-2 py-1 border border-bordes rounded-full"
+                      key="Javascript"
+                    >
+                      <span>
+                        Javascript
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>,
+      <nav
+        className="bg-base dark:bg-baseDark flex w-full sm:hidden fixed bottom-0 transition-transform duration-500 px-4 py-2 border-t z-10  border-bordes"
+        id="navFooter"
+      >
+        <div
+          className="sm:gap-4 flex-grow sm:flex-grow-0 sm:hidden flex w-full justify-between"
+        >
+          <a
+            className="sm:hover:bg-blue-200 dark:sm:hover:bg-gris flex flex-col sm:flex-row items-center transition-colors duration-150 rounded-lg sm:px-4 sm:py-2 py-0 font-medium"
+            href="/#inicio"
+          >
+            <i
+              className="sm:mr-2 fa-solid fa-house"
+            />
+            <span
+              className="text-xs"
+            >
+              inicio
+            </span>
+          </a>
+          <a
+            className="sm:hover:bg-blue-200 dark:sm:hover:bg-gris flex flex-col sm:flex-row items-center transition-colors duration-150 rounded-lg sm:px-4 sm:py-2 py-0 font-medium"
+            href="/#sobremi"
+          >
+            <i
+              className="sm:mr-2 fa-solid fa-user"
+            />
+            <span
+              className="text-xs"
+            >
+              sobre mí
+            </span>
+          </a>
+          <a
+            className="sm:hover:bg-blue-200 dark:sm:hover:bg-gris flex flex-col sm:flex-row items-center transition-colors duration-150 rounded-lg sm:px-4 sm:py-2 py-0 font-medium"
+            href="/#habilidades"
+          >
+            <i
+              className="sm:mr-2 fa-solid fa-laptop-code"
+            />
+            <span
+              className="text-xs"
+            >
+              habilidades
+            </span>
+          </a>
+          <a
+            className="sm:hover:bg-blue-200 dark:sm:hover:bg-gris flex flex-col sm:flex-row items-center transition-colors duration-150 rounded-lg sm:px-4 sm:py-2 py-0 font-medium"
+            href="/#proyectos"
+          >
+            <i
+              className="sm:mr-2 fa-solid fa-briefcase"
+            />
+            <span
+              className="text-xs"
+            >
+              proyectos
+            </span>
+          </a>
+        </div>
+      </nav>,
+    ]
+    <footer
+      className="flex flex-col transition-colors duration-150 justify-center items-center bg-white dark:bg-baseDark mt-4 p-2 text-letra dark:text-letraDark"
+    >
+      <p>
+        Hecho con 💙 por Andres Gama
+      </p>
+      <small
+        className="text-fondos"
+      >
+        © 2022 Andres Gama | developed by Andres Gama
+      </small>
+    </footer>
+  </div>
 </div>
 `;

@@ -1,4 +1,3 @@
-import React from 'react'
 
 const Habilidad = ({ porcentaje, children }) => {
   return (

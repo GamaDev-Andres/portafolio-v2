@@ -14,11 +14,13 @@ const MiDescripcion = () => {
       )}
       <button onClick={handleVerMas} className=" mx-auto block text-blue-400">
         {verMas ? 'Ver menos' : 'Ver mas'}{' '}
-        {verMas ? (
+        {verMas
+          ? (
           <i className="fa-solid fa-arrow-up"></i>
-        ) : (
+            )
+          : (
           <i className="fa-solid fa-arrow-down"></i>
-        )}
+            )}
       </button>
     </div>
   )

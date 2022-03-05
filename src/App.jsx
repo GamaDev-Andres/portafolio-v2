@@ -1,8 +1,8 @@
 import { useEffect } from 'react'
-import Footer from './components/Footer'
-
-import AppRouter from './routes/AppRouter'
 import { HelmetProvider } from 'react-helmet-async'
+
+import Footer from './components/Footer'
+import AppRouter from './routes/AppRouter'
 
 const App = () => {
   useEffect(() => {
