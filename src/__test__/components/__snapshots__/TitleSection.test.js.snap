@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`probando <TitleSection/> debe montarse correctamente 1`] = `
+<h2
+  className="my-4 uppercase font-bold text-3xl md:text-center"
+>
+  <span
+    className="text-blue-400"
+  >
+    prueba
+  </span>
+   
+  Primer
+</h2>
+`;

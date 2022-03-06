@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`probando <ButtonModeDark/> debe montarse correctamente 1`] = `
+<button
+  className=" z-20 absolute top-2 bottom-2 right-4 sm:static "
+  onClick={[Function]}
+>
+  <i
+    className="w-5 h-5 text-black fa-solid fa-moon"
+  />
+</button>
+`;
+
+exports[`probando <ButtonModeDark/> debe montarse correctamente en modo dark y no dark 1`] = `
+<button
+  className=" z-20 absolute top-2 bottom-2 right-4 sm:static "
+  onClick={[Function]}
+>
+  <i
+    className="text-letra-dark w-5 h-5 fa-solid fa-sun"
+  />
+</button>
+`;

@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`probando <Error404/> debe montarse correctamente 1`] = `
+Array [
+  <nav
+    className="fixed w-full  sm:top-0 sm:left-0 z-10"
+  >
+    <div
+      className="flex relative justify-center max-w-[1256px] mx-auto bg-base dark:bg-baseDark items-center px-4 py-2"
+    >
+      <a
+        href="/"
+        onClick={[Function]}
+      >
+        <h1
+          className="text-letra font-black text-4xl px-4 text-center dark:text-letraDark"
+        >
+          GamaDev
+        </h1>
+      </a>
+      <a
+        className="absolute top-4 right-4"
+        href="/"
+        onClick={[Function]}
+      >
+        <i
+          className="sm:mr-2 fa-solid fa-house"
+        />
+      </a>
+    </div>
+  </nav>,
+  <div
+    className=" flex items-center justify-center flex-col gap-4 p-2"
+  >
+    <div
+      className="p-4 border border-blue-500 shadow-md shadow-blue-300"
+    >
+      <h2
+        className="text-blue-400 font-bold text-2xl"
+      >
+        ¡Error 404!
+      </h2>
+      <p>
+        La página a la que intento acceder no existe.
+      </p>
+      <a
+        className="block py-2 px-4 rounded-md text-center ring-1 mt-4"
+        href="/"
+        onClick={[Function]}
+      >
+        Página principal
+      </a>
+    </div>
+  </div>,
+]
+`;

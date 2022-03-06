@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`probando <NavBar/> debe montarse correctamente 1`] = `
+<nav
+  className="sm:sticky w-full sm:top-0 sm:left-0 z-10"
+>
+  <div
+    className="transition-colors duration-150 flex justify-center sm:justify-between relative sm:flex-col md:flex-row max-w-[1256px] mx-auto bg-base dark:bg-baseDark items-center px-4 py-2"
+  >
+    <a
+      href="/"
+      onClick={[Function]}
+    >
+      <h1
+        className="text-letra dark:text-letraDark font-black text-4xl px-4 text-center"
+      >
+        GamaDev
+      </h1>
+    </a>
+    <div
+      className="flex items-center dark:text-letraDark  justify-end gap-4"
+    >
+      <div
+        className="sm:gap-4 flex-grow sm:flex-grow-0 hidden justify-end sm:flex"
+      >
+        <a
+          className="sm:hover:bg-blue-200 dark:sm:hover:bg-gris flex flex-col sm:flex-row items-center transition-colors duration-150 rounded-lg sm:px-4 sm:py-2 py-0 font-medium"
+          href="/#inicio"
+        >
+          <i
+            className="sm:mr-2 fa-solid fa-house"
+          />
+          <span
+            className="false"
+          >
+            inicio
+          </span>
+        </a>
+        <a
+          className="sm:hover:bg-blue-200 dark:sm:hover:bg-gris flex flex-col sm:flex-row items-center transition-colors duration-150 rounded-lg sm:px-4 sm:py-2 py-0 font-medium"
+          href="/#sobremi"
+        >
+          <i
+            className="sm:mr-2 fa-solid fa-user"
+          />
+          <span
+            className="false"
+          >
+            sobre mí
+          </span>
+        </a>
+        <a
+          className="sm:hover:bg-blue-200 dark:sm:hover:bg-gris flex flex-col sm:flex-row items-center transition-colors duration-150 rounded-lg sm:px-4 sm:py-2 py-0 font-medium"
+          href="/#habilidades"
+        >
+          <i
+            className="sm:mr-2 fa-solid fa-laptop-code"
+          />
+          <span
+            className="false"
+          >
+            habilidades
+          </span>
+        </a>
+        <a
+          className="sm:hover:bg-blue-200 dark:sm:hover:bg-gris flex flex-col sm:flex-row items-center transition-colors duration-150 rounded-lg sm:px-4 sm:py-2 py-0 font-medium"
+          href="/#proyectos"
+        >
+          <i
+            className="sm:mr-2 fa-solid fa-briefcase"
+          />
+          <span
+            className="false"
+          >
+            proyectos
+          </span>
+        </a>
+      </div>
+      <button
+        className=" z-20 absolute top-2 bottom-2 right-4 sm:static "
+        onClick={[Function]}
+      >
+        <i
+          className="w-5 h-5 text-black fa-solid fa-moon"
+        />
+      </button>
+    </div>
+  </div>
+</nav>
+`;

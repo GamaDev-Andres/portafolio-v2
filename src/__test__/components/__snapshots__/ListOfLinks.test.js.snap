@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`probando <ListOfLinks/> debe montarse correctamente 1`] = `
+<div
+  className="sm:gap-4 flex-grow sm:flex-grow-0 hidden justify-end sm:flex"
+>
+  <a
+    className="sm:hover:bg-blue-200 dark:sm:hover:bg-gris flex flex-col sm:flex-row items-center transition-colors duration-150 rounded-lg sm:px-4 sm:py-2 py-0 font-medium"
+    href="/#inicio"
+  >
+    <i
+      className="sm:mr-2 fa-solid fa-house"
+    />
+    <span
+      className="false"
+    >
+      inicio
+    </span>
+  </a>
+  <a
+    className="sm:hover:bg-blue-200 dark:sm:hover:bg-gris flex flex-col sm:flex-row items-center transition-colors duration-150 rounded-lg sm:px-4 sm:py-2 py-0 font-medium"
+    href="/#sobremi"
+  >
+    <i
+      className="sm:mr-2 fa-solid fa-user"
+    />
+    <span
+      className="false"
+    >
+      sobre mí
+    </span>
+  </a>
+  <a
+    className="sm:hover:bg-blue-200 dark:sm:hover:bg-gris flex flex-col sm:flex-row items-center transition-colors duration-150 rounded-lg sm:px-4 sm:py-2 py-0 font-medium"
+    href="/#habilidades"
+  >
+    <i
+      className="sm:mr-2 fa-solid fa-laptop-code"
+    />
+    <span
+      className="false"
+    >
+      habilidades
+    </span>
+  </a>
+  <a
+    className="sm:hover:bg-blue-200 dark:sm:hover:bg-gris flex flex-col sm:flex-row items-center transition-colors duration-150 rounded-lg sm:px-4 sm:py-2 py-0 font-medium"
+    href="/#proyectos"
+  >
+    <i
+      className="sm:mr-2 fa-solid fa-briefcase"
+    />
+    <span
+      className="false"
+    >
+      proyectos
+    </span>
+  </a>
+</div>
+`;
