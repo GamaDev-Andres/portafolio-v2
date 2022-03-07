@@ -9,7 +9,7 @@ import { Helmet } from 'react-helmet-async'
 const Project = () => {
   const { id } = useParams()
   const proyecto = proyectos.find(
-    (el) => id.toLowerCase() === el.titulo.toLowerCase()
+    (el) => id.toLowerCase() === el.titulo.toLowerCase() && el.detalles
   )
   if (!proyecto) {
     return <Navigate to="/" />
