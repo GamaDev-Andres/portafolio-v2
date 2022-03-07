@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`probando <ModalPortal/> debe montarse correctamente en "#root-modal" 1`] = `
+<Portal
+  containerInfo={
+    <div
+      id="root-modal"
+    >
+      <div
+        class="flex items-center fixed justify-center z-50 w-screen h-screen bg-fondoModal"
+      >
+        <div
+          class="relative flex items-center justify-center mx-auto"
+        >
+          <span
+            class="absolute top-2 right-2 cursor-pointer mx-auto p-1 text-red-600"
+            title="cerrar"
+          >
+            <i
+              class="fas fa-times-circle"
+            />
+          </span>
+          <div
+            id="hijo"
+          >
+            soy un hijo
+          </div>
+        </div>
+      </div>
+    </div>
+  }
+>
+  <div
+    className="flex items-center fixed justify-center z-50 w-screen h-screen bg-fondoModal"
+    onClick={[Function]}
+  >
+    <div
+      className="relative flex items-center justify-center mx-auto"
+      onClick={[Function]}
+    >
+      <span
+        className="absolute top-2 right-2 cursor-pointer mx-auto p-1 text-red-600"
+        onClick={[MockFunction]}
+        title="cerrar"
+      >
+        <i
+          className="fas fa-times-circle"
+        />
+      </span>
+      <div
+        id="hijo"
+      >
+        soy un hijo
+      </div>
+    </div>
+  </div>
+</Portal>
+`;

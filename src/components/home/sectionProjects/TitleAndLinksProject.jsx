@@ -1,3 +1,5 @@
+import propTypes from 'prop-types'
+
 const TitleAndLinksProject = ({ project }) => {
   const { titulo, url, codigo } = project
 
@@ -23,5 +25,7 @@ const TitleAndLinksProject = ({ project }) => {
     </div>
   )
 }
-
+TitleAndLinksProject.propTypes = {
+  project: propTypes.object.isRequired
+}
 export default TitleAndLinksProject

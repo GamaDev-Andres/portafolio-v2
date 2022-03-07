@@ -6,7 +6,6 @@ import { HelmetProvider } from 'react-helmet-async'
 import { MemoryRouter } from 'react-router-dom'
 import Home from '../../../components/home/Home'
 import AppRouter from '../../../routes/AppRouter'
-
 describe('probando <Home/>', () => {
   test('debe montarse correctamente', () => {
     const wrapper = Enzyme.mount(

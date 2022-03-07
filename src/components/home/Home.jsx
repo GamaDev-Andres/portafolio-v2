@@ -1,6 +1,6 @@
 import { useEffect } from 'react'
 import { Helmet } from 'react-helmet-async'
-import useNabBarFadeOut from '../../hooks/useNabBarFadeOut'
+import useNavBarFadeOut from '../../hooks/useNavBarFadeOut'
 import NavBar from '../NavBar'
 import NavBarFooter from '../NavBarFooter'
 import SectionAboutMe from './sectionAboutMe/SectionAboutMe'
@@ -9,7 +9,7 @@ import SectionPresentation from './sectionPresentation/SectionPresentation'
 import SectionProjects from './sectionProjects/SectionProjects'
 
 const Home = () => {
-  const { navBarScrollController } = useNabBarFadeOut()
+  const { navBarScrollController } = useNavBarFadeOut()
 
   useEffect(() => {
     if (document.querySelector('#navFooter')) {

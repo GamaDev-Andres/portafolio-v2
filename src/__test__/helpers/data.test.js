@@ -1,4 +1,8 @@
-export const proyectos = [
+/**
+ * @jest-environment jsdom
+ */
+import { miDescripcion, proyectos } from '../../helpers/data'
+const proyectosForTest = [
   {
     titulo: 'BARBERAPP',
     descripcion: `Aplicación realizada con el stack MERN y styled components,
@@ -180,8 +184,7 @@ export const proyectos = [
     fotos: []
   }
 ]
-
-export const miDescripcion = {
+const miDescripcionForTest = {
   quienSoy: {
     parrafo1: `Mi nombre es Andres Gama, me apasiona encontrar grandes retos que me
           permitan crecer profesional y personalmente, la programación me
@@ -209,3 +212,12 @@ export const miDescripcion = {
   presentacion:
     'apasionado por el mundo del desarrollo y por crear aplicaciones e interfaces que aporten y brinden grandes experiencias.'
 }
+
+describe('probando data', () => {
+  test('debe ser la misma data de "proyectos"', () => {
+    expect(proyectos).toEqual(proyectosForTest)
+  })
+  test('debe ser la misma data de "miDescripcion"', () => {
+    expect(miDescripcion).toEqual(miDescripcionForTest)
+  })
+})

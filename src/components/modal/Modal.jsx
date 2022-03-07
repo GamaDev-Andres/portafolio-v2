@@ -1,6 +1,6 @@
 import ReactDOM from 'react-dom'
 
-export const ModalPortal = ({ children, isOpen, closeModal }) => {
+export const ModalPortal = ({ children, closeModal }) => {
   return ReactDOM.createPortal(
     <div
       className="flex items-center fixed justify-center z-50 w-screen h-screen bg-fondoModal"

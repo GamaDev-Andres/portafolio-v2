@@ -1,6 +1,6 @@
 import { useRef } from 'react'
 
-const useNabBarFadeOut = () => {
+const useNavBarFadeOut = () => {
   const scrollPosition = useRef(0)
 
   function navBarScrollController() {
@@ -19,4 +19,4 @@ const useNabBarFadeOut = () => {
   return { navBarScrollController }
 }
 
-export default useNabBarFadeOut
+export default useNavBarFadeOut
