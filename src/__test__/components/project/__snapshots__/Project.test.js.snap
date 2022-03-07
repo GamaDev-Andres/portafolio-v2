@@ -1,0 +1,421 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`probando <Project/> debe montarse correctamente en ruta "project/BARBERAPP"  1`] = `
+Array [
+  "",
+  <nav
+    className="fixed w-full  sm:top-0 sm:left-0 z-10"
+  >
+    <div
+      className="flex relative justify-center max-w-[1256px] mx-auto bg-base dark:bg-baseDark items-center px-4 py-2"
+    >
+      <a
+        href="/"
+        onClick={[Function]}
+      >
+        <h1
+          className="text-letra font-black text-4xl px-4 text-center dark:text-letraDark"
+        >
+          GamaDev
+        </h1>
+      </a>
+      <a
+        className="absolute top-4 right-4"
+        href="/"
+        onClick={[Function]}
+      >
+        <i
+          className="sm:mr-2 fa-solid fa-house"
+        />
+      </a>
+    </div>
+  </nav>,
+  <main
+    className="mt-[56px]  px-4 flex flex-col gap-4"
+  >
+    <div
+      className="flex md:flex-col gap-4 md:gap-0"
+    >
+      <h2
+        className="md:pt-4 uppercase text-blue-400 font-bold text-2xl md:text-center"
+      >
+        BARBERAPP
+      </h2>
+      <small
+        className="flex items-center justify-center md:text-center text-fondos "
+      >
+        <a
+          href="https://barberappag.netlify.app/"
+          rel="noreferrer"
+          target="_blank"
+        >
+          <i
+            className="mr-2 text-sm fa-solid fa-link text-fondos"
+          />
+           |
+        </a>
+        <a
+          href="https://github.com/GamaDev-Andres/BarberApp-fe"
+          rel="noreferrer"
+          target="_blank"
+        >
+          <i
+            className="ml-2 fa-brands fa-github"
+          />
+        </a>
+      </small>
+    </div>
+    <div>
+      <h2
+        className="font-bold text-letra dark:text-letraDark text-lg"
+      >
+        Funcionalidades
+      </h2>
+      <ul
+        className="pl-4 inline-block"
+      >
+        <li
+          className="list-disc hover:text-blue-400 "
+          key="Barbero y cliente"
+        >
+          <a
+            className="underline"
+            href="#Barberoycliente"
+          >
+            Barbero y cliente
+          </a>
+        </li>
+        <li
+          className="list-disc hover:text-blue-400 "
+          key="Login y Registro del barbero"
+        >
+          <a
+            className="underline"
+            href="#LoginyRegistrodelbarbero"
+          >
+            Login y Registro del barbero
+          </a>
+        </li>
+        <li
+          className="list-disc hover:text-blue-400 "
+          key="Login y Registro del cliente"
+        >
+          <a
+            className="underline"
+            href="#LoginyRegistrodelcliente"
+          >
+            Login y Registro del cliente
+          </a>
+        </li>
+        <li
+          className="list-disc hover:text-blue-400 "
+          key="Agendar cita"
+        >
+          <a
+            className="underline"
+            href="#Agendarcita"
+          >
+            Agendar cita
+          </a>
+        </li>
+        <li
+          className="list-disc hover:text-blue-400 "
+          key="Ver citas"
+        >
+          <a
+            className="underline"
+            href="#Vercitas"
+          >
+            Ver citas
+          </a>
+        </li>
+        <li
+          className="list-disc hover:text-blue-400 "
+          key="Ver barberos"
+        >
+          <a
+            className="underline"
+            href="#Verbarberos"
+          >
+            Ver barberos
+          </a>
+        </li>
+        <li
+          className="list-disc hover:text-blue-400 "
+          key="Perfil de barbero"
+        >
+          <a
+            className="underline"
+            href="#Perfildebarbero"
+          >
+            Perfil de barbero
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div
+      className="grid grid-cols-1 gap-4"
+    >
+      <section
+        className="text-fondos scroll-m-14"
+        id="Barberoycliente"
+      >
+        <h3
+          className="uppercase text-blue-400 font-semibold text-2xl my-4"
+        >
+          Barbero y cliente
+        </h3>
+        <p>
+          BARBERAPP nos da brinda la posibilidad de que tanto clientes como barberos tengan una cuenta. Un cliente podrá agendar citas con el barbero de su preferencia y por otro lado el barbero en su cuenta de BARBBERAPP podrá ver estas citas agendadas y decidir si aceptarlas o rechazarlas.
+        </p>
+        <div
+          className="flex flex-wrap pt-4 gap-4 items-center"
+        >
+          <img
+            alt="screenshot-proyecto"
+            className="cursor-pointer hover:scale-[1.01] transition-transform duration-300 object-cover max-h-[400px]  mx-auto ring-1"
+            key="https://res.cloudinary.com/dapa84kxy/image/upload/v1646015171/portafolio/barberapp/64f2c810-73b7-4dfd-9c12-07d35d36e862_txgsvq.jpg"
+            onClick={[Function]}
+            src="https://res.cloudinary.com/dapa84kxy/image/upload/v1646015171/portafolio/barberapp/64f2c810-73b7-4dfd-9c12-07d35d36e862_txgsvq.jpg"
+          />
+          <img
+            alt="screenshot-proyecto"
+            className="cursor-pointer hover:scale-[1.01] transition-transform duration-300 object-cover max-h-[400px]  mx-auto ring-1"
+            key="https://res.cloudinary.com/dapa84kxy/image/upload/v1646153693/portafolio/barberapp/menu-user-desk_jtgfwl.png"
+            onClick={[Function]}
+            src="https://res.cloudinary.com/dapa84kxy/image/upload/v1646153693/portafolio/barberapp/menu-user-desk_jtgfwl.png"
+          />
+          <img
+            alt="screenshot-proyecto"
+            className="cursor-pointer hover:scale-[1.01] transition-transform duration-300 object-cover max-h-[400px]  mx-auto ring-1"
+            key="https://res.cloudinary.com/dapa84kxy/image/upload/v1646015130/portafolio/barberapp/43985bb6-9674-48b4-9c1a-53ac5c329fbc_lstegh.jpg"
+            onClick={[Function]}
+            src="https://res.cloudinary.com/dapa84kxy/image/upload/v1646015130/portafolio/barberapp/43985bb6-9674-48b4-9c1a-53ac5c329fbc_lstegh.jpg"
+          />
+          <img
+            alt="screenshot-proyecto"
+            className="cursor-pointer hover:scale-[1.01] transition-transform duration-300 object-cover max-h-[400px]  mx-auto ring-1"
+            key="https://res.cloudinary.com/dapa84kxy/image/upload/v1646153692/portafolio/barberapp/menu-barber-desk_p0d8gq.png"
+            onClick={[Function]}
+            src="https://res.cloudinary.com/dapa84kxy/image/upload/v1646153692/portafolio/barberapp/menu-barber-desk_p0d8gq.png"
+          />
+        </div>
+      </section>
+      <section
+        className="text-fondos scroll-m-14"
+        id="LoginyRegistrodelbarbero"
+      >
+        <h3
+          className="uppercase text-blue-400 font-semibold text-2xl my-4"
+        >
+          Login y Registro del barbero
+        </h3>
+        <p>
+          El barbero podrá ingresar a su cuenta normalmente, solo debe cambiar la opción a modo barbero. Pero para registrar un barbero debe hacerlo un administrador de la página que cuente con la contraseña de "administrador" que es requerida para crear un user de barbero.
+        </p>
+        <div
+          className="flex flex-wrap pt-4 gap-4 items-center"
+        >
+          <img
+            alt="screenshot-proyecto"
+            className="cursor-pointer hover:scale-[1.01] transition-transform duration-300 object-cover max-h-[400px]  mx-auto ring-1"
+            key="https://res.cloudinary.com/dapa84kxy/image/upload/v1646153268/portafolio/barberapp/d2134e1a-b32e-4874-9ed9-3100704bd5f2_x39y1s.jpg"
+            onClick={[Function]}
+            src="https://res.cloudinary.com/dapa84kxy/image/upload/v1646153268/portafolio/barberapp/d2134e1a-b32e-4874-9ed9-3100704bd5f2_x39y1s.jpg"
+          />
+          <img
+            alt="screenshot-proyecto"
+            className="cursor-pointer hover:scale-[1.01] transition-transform duration-300 object-cover max-h-[400px]  mx-auto ring-1"
+            key="https://res.cloudinary.com/dapa84kxy/image/upload/v1646153148/portafolio/barberapp/registraradmin-desk_mzkcy4.png"
+            onClick={[Function]}
+            src="https://res.cloudinary.com/dapa84kxy/image/upload/v1646153148/portafolio/barberapp/registraradmin-desk_mzkcy4.png"
+          />
+          <img
+            alt="screenshot-proyecto"
+            className="cursor-pointer hover:scale-[1.01] transition-transform duration-300 object-cover max-h-[400px]  mx-auto ring-1"
+            key="https://res.cloudinary.com/dapa84kxy/image/upload/v1646153264/portafolio/barberapp/79bf791f-0f1c-4f7d-9e3c-15e3fdd527e3_jwoh5m.jpg"
+            onClick={[Function]}
+            src="https://res.cloudinary.com/dapa84kxy/image/upload/v1646153264/portafolio/barberapp/79bf791f-0f1c-4f7d-9e3c-15e3fdd527e3_jwoh5m.jpg"
+          />
+          <img
+            alt="screenshot-proyecto"
+            className="cursor-pointer hover:scale-[1.01] transition-transform duration-300 object-cover max-h-[400px]  mx-auto ring-1"
+            key="https://res.cloudinary.com/dapa84kxy/image/upload/v1646153147/portafolio/barberapp/registrobarbero-desk_htsmwn.png"
+            onClick={[Function]}
+            src="https://res.cloudinary.com/dapa84kxy/image/upload/v1646153147/portafolio/barberapp/registrobarbero-desk_htsmwn.png"
+          />
+        </div>
+      </section>
+      <section
+        className="text-fondos scroll-m-14"
+        id="LoginyRegistrodelcliente"
+      >
+        <h3
+          className="uppercase text-blue-400 font-semibold text-2xl my-4"
+        >
+          Login y Registro del cliente
+        </h3>
+        <p>
+          El cliente debe de crearse una cuenta para poder contar con los servicios de BARBERAPP, para esto se le brinda la posibilidad de hacerlo con un correo electrónico.
+        </p>
+        <div
+          className="flex flex-wrap pt-4 gap-4 items-center"
+        >
+          <img
+            alt="screenshot-proyecto"
+            className="cursor-pointer hover:scale-[1.01] transition-transform duration-300 object-cover max-h-[400px]  mx-auto ring-1"
+            key="https://res.cloudinary.com/dapa84kxy/image/upload/v1646015192/portafolio/barberapp/90e0239c-e961-484e-b4ef-042d741e72e9_m7udyu.jpg"
+            onClick={[Function]}
+            src="https://res.cloudinary.com/dapa84kxy/image/upload/v1646015192/portafolio/barberapp/90e0239c-e961-484e-b4ef-042d741e72e9_m7udyu.jpg"
+          />
+          <img
+            alt="screenshot-proyecto"
+            className="cursor-pointer hover:scale-[1.01] transition-transform duration-300 object-cover max-h-[400px]  mx-auto ring-1"
+            key="https://res.cloudinary.com/dapa84kxy/image/upload/v1644874961/portafolio/barberapp/barberapp_sdpgwl.png"
+            onClick={[Function]}
+            src="https://res.cloudinary.com/dapa84kxy/image/upload/v1644874961/portafolio/barberapp/barberapp_sdpgwl.png"
+          />
+        </div>
+      </section>
+      <section
+        className="text-fondos scroll-m-14"
+        id="Agendarcita"
+      >
+        <h3
+          className="uppercase text-blue-400 font-semibold text-2xl my-4"
+        >
+          Agendar cita
+        </h3>
+        <p>
+          El cliente tiene la posibilidad de agendar citas con el barbero que él prefiere y puede hacerlo de 2 formas, la primera es entrando a la página "agendar cita" y la otra es entrando en la página de "barbero" en donde podrá elegir a su barbero y agendar la cita directamente.
+        </p>
+        <div
+          className="flex flex-wrap pt-4 gap-4 items-center"
+        >
+          <img
+            alt="screenshot-proyecto"
+            className="cursor-pointer hover:scale-[1.01] transition-transform duration-300 object-cover max-h-[400px]  mx-auto ring-1"
+            key="https://res.cloudinary.com/dapa84kxy/image/upload/v1646015165/portafolio/barberapp/e78ae585-a9d8-4e98-955d-85fc502cee0d_ubuoje.jpg"
+            onClick={[Function]}
+            src="https://res.cloudinary.com/dapa84kxy/image/upload/v1646015165/portafolio/barberapp/e78ae585-a9d8-4e98-955d-85fc502cee0d_ubuoje.jpg"
+          />
+          <img
+            alt="screenshot-proyecto"
+            className="cursor-pointer hover:scale-[1.01] transition-transform duration-300 object-cover max-h-[400px]  mx-auto ring-1"
+            key="https://res.cloudinary.com/dapa84kxy/image/upload/v1646100418/portafolio/barberapp/agendar-barberapp-desk_oc67ox.png"
+            onClick={[Function]}
+            src="https://res.cloudinary.com/dapa84kxy/image/upload/v1646100418/portafolio/barberapp/agendar-barberapp-desk_oc67ox.png"
+          />
+        </div>
+      </section>
+      <section
+        className="text-fondos scroll-m-14"
+        id="Vercitas"
+      >
+        <h3
+          className="uppercase text-blue-400 font-semibold text-2xl my-4"
+        >
+          Ver citas
+        </h3>
+        <p>
+          El cliente tiene la posibilidad de ver las citas que tiene agendadas y también ver en qué estado de encuentran, podrá ver si la cita fue aceptada, rechazada o caduco. Por otro lado, el barbero tiene la posibilidad de ver las citas que le han solicitado y decidir si aceptarlas o rechazarlas.
+        </p>
+        <div
+          className="flex flex-wrap pt-4 gap-4 items-center"
+        >
+          <img
+            alt="screenshot-proyecto"
+            className="cursor-pointer hover:scale-[1.01] transition-transform duration-300 object-cover max-h-[400px]  mx-auto ring-1"
+            key="https://res.cloudinary.com/dapa84kxy/image/upload/v1646015153/portafolio/barberapp/c05b9c5d-e36c-4ab6-bfa6-e1881bbef6cc_rtxtto.jpg"
+            onClick={[Function]}
+            src="https://res.cloudinary.com/dapa84kxy/image/upload/v1646015153/portafolio/barberapp/c05b9c5d-e36c-4ab6-bfa6-e1881bbef6cc_rtxtto.jpg"
+          />
+          <img
+            alt="screenshot-proyecto"
+            className="cursor-pointer hover:scale-[1.01] transition-transform duration-300 object-cover max-h-[400px]  mx-auto ring-1"
+            key="https://res.cloudinary.com/dapa84kxy/image/upload/v1646100548/portafolio/barberapp/citas-barberapp-desk_fiskup.png"
+            onClick={[Function]}
+            src="https://res.cloudinary.com/dapa84kxy/image/upload/v1646100548/portafolio/barberapp/citas-barberapp-desk_fiskup.png"
+          />
+        </div>
+      </section>
+      <section
+        className="text-fondos scroll-m-14"
+        id="Verbarberos"
+      >
+        <h3
+          className="uppercase text-blue-400 font-semibold text-2xl my-4"
+        >
+          Ver barberos
+        </h3>
+        <p>
+          Solo el cliente tiene la posibilidad de ver los barberos disponibles y ver su foto o ir a su perfil y una breve descripción de ellos, con esto el cliente podrá decidir con más seguridad con quien quiere agendar si cita.
+        </p>
+        <div
+          className="flex flex-wrap pt-4 gap-4 items-center"
+        >
+          <img
+            alt="screenshot-proyecto"
+            className="cursor-pointer hover:scale-[1.01] transition-transform duration-300 object-cover max-h-[400px]  mx-auto ring-1"
+            key="https://res.cloudinary.com/dapa84kxy/image/upload/v1646015160/portafolio/barberapp/1453c605-7799-45a1-bdb3-7db906ec2440_pwnnhw.jpg"
+            onClick={[Function]}
+            src="https://res.cloudinary.com/dapa84kxy/image/upload/v1646015160/portafolio/barberapp/1453c605-7799-45a1-bdb3-7db906ec2440_pwnnhw.jpg"
+          />
+          <img
+            alt="screenshot-proyecto"
+            className="cursor-pointer hover:scale-[1.01] transition-transform duration-300 object-cover max-h-[400px]  mx-auto ring-1"
+            key="https://res.cloudinary.com/dapa84kxy/image/upload/v1646100662/portafolio/barberapp/barberos-barberapp-desk_tqbcqo.png"
+            onClick={[Function]}
+            src="https://res.cloudinary.com/dapa84kxy/image/upload/v1646100662/portafolio/barberapp/barberos-barberapp-desk_tqbcqo.png"
+          />
+          <img
+            alt="screenshot-proyecto"
+            className="cursor-pointer hover:scale-[1.01] transition-transform duration-300 object-cover max-h-[400px]  mx-auto ring-1"
+            key="https://res.cloudinary.com/dapa84kxy/image/upload/v1646100753/portafolio/barberapp/Image_4_pqyacf.png"
+            onClick={[Function]}
+            src="https://res.cloudinary.com/dapa84kxy/image/upload/v1646100753/portafolio/barberapp/Image_4_pqyacf.png"
+          />
+        </div>
+      </section>
+      <section
+        className="text-fondos scroll-m-14"
+        id="Perfildebarbero"
+      >
+        <h3
+          className="uppercase text-blue-400 font-semibold text-2xl my-4"
+        >
+          Perfil de barbero
+        </h3>
+        <p>
+          Solo los barberos cuentan con un perfil en el que pueden hablar de ellos y de su experiencia, además tienen la posibilidad de agregar fotos de los cortes que han realizado para que el cliente pueda ver su trabajo.
+        </p>
+        <div
+          className="flex flex-wrap pt-4 gap-4 items-center"
+        >
+          <img
+            alt="screenshot-proyecto"
+            className="cursor-pointer hover:scale-[1.01] transition-transform duration-300 object-cover max-h-[400px]  mx-auto ring-1"
+            key="https://res.cloudinary.com/dapa84kxy/image/upload/v1646015113/portafolio/barberapp/a10fa6e2-39da-455d-81d0-11f4d5ca4cfc_ouzbkh.jpg"
+            onClick={[Function]}
+            src="https://res.cloudinary.com/dapa84kxy/image/upload/v1646015113/portafolio/barberapp/a10fa6e2-39da-455d-81d0-11f4d5ca4cfc_ouzbkh.jpg"
+          />
+          <img
+            alt="screenshot-proyecto"
+            className="cursor-pointer hover:scale-[1.01] transition-transform duration-300 object-cover max-h-[400px]  mx-auto ring-1"
+            key="https://res.cloudinary.com/dapa84kxy/image/upload/c_scale,h_1079/v1646097636/portafolio/barberapp/637b8db2-1301-4f12-bb8c-177005cb2c48_sy9vix.jpg"
+            onClick={[Function]}
+            src="https://res.cloudinary.com/dapa84kxy/image/upload/c_scale,h_1079/v1646097636/portafolio/barberapp/637b8db2-1301-4f12-bb8c-177005cb2c48_sy9vix.jpg"
+          />
+          <img
+            alt="screenshot-proyecto"
+            className="cursor-pointer hover:scale-[1.01] transition-transform duration-300 object-cover max-h-[400px]  mx-auto ring-1"
+            key="https://res.cloudinary.com/dapa84kxy/image/upload/v1646015074/portafolio/barberapp/879b6616-b450-43ff-8f5f-e11607ec392f_uhussk.jpg"
+            onClick={[Function]}
+            src="https://res.cloudinary.com/dapa84kxy/image/upload/v1646015074/portafolio/barberapp/879b6616-b450-43ff-8f5f-e11607ec392f_uhussk.jpg"
+          />
+        </div>
+      </section>
+    </div>
+  </main>,
+]
+`;

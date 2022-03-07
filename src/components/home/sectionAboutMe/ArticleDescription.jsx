@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types'
+
 const ArticleDescription = ({ obj, title }) => {
   return (
     <article className="flex flex-col gap-2">
@@ -8,5 +10,9 @@ const ArticleDescription = ({ obj, title }) => {
       <p>{obj.parrafo2}</p>
     </article>
   )
+}
+ArticleDescription.propTypes = {
+  obj: PropTypes.object.isRequired,
+  title: PropTypes.string.isRequired
 }
 export default ArticleDescription

@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`probando <TitlePageProject/> debe montarse correctamente 1`] = `
+<div
+  className="flex md:flex-col gap-4 md:gap-0"
+>
+  <h2
+    className="md:pt-4 uppercase text-blue-400 font-bold text-2xl md:text-center"
+  >
+    BARBERAPP
+  </h2>
+  <small
+    className="flex items-center justify-center md:text-center text-fondos "
+  >
+    <a
+      href="https://barberappag.netlify.app/"
+      rel="noreferrer"
+      target="_blank"
+    >
+      <i
+        className="mr-2 text-sm fa-solid fa-link text-fondos"
+      />
+       |
+    </a>
+    <a
+      href="https://github.com/GamaDev-Andres/BarberApp-fe"
+      rel="noreferrer"
+      target="_blank"
+    >
+      <i
+        className="ml-2 fa-brands fa-github"
+      />
+    </a>
+  </small>
+</div>
+`;

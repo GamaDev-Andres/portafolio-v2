@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`probando <SectionProject/> debe montarse correctamente  1`] = `
+<section
+  className="text-fondos scroll-m-14"
+  id="Barberoycliente"
+>
+  <h3
+    className="uppercase text-blue-400 font-semibold text-2xl my-4"
+  >
+    Barbero y cliente
+  </h3>
+  <p>
+    BARBERAPP nos da brinda la posibilidad de que tanto clientes como barberos tengan una cuenta. Un cliente podrá agendar citas con el barbero de su preferencia y por otro lado el barbero en su cuenta de BARBBERAPP podrá ver estas citas agendadas y decidir si aceptarlas o rechazarlas.
+  </p>
+  <div
+    className="flex flex-wrap pt-4 gap-4 items-center"
+  >
+    <img
+      alt="screenshot-proyecto"
+      className="cursor-pointer hover:scale-[1.01] transition-transform duration-300 object-cover max-h-[400px]  mx-auto ring-1"
+      key="https://res.cloudinary.com/dapa84kxy/image/upload/v1646015171/portafolio/barberapp/64f2c810-73b7-4dfd-9c12-07d35d36e862_txgsvq.jpg"
+      onClick={[Function]}
+      src="https://res.cloudinary.com/dapa84kxy/image/upload/v1646015171/portafolio/barberapp/64f2c810-73b7-4dfd-9c12-07d35d36e862_txgsvq.jpg"
+    />
+    <img
+      alt="screenshot-proyecto"
+      className="cursor-pointer hover:scale-[1.01] transition-transform duration-300 object-cover max-h-[400px]  mx-auto ring-1"
+      key="https://res.cloudinary.com/dapa84kxy/image/upload/v1646153693/portafolio/barberapp/menu-user-desk_jtgfwl.png"
+      onClick={[Function]}
+      src="https://res.cloudinary.com/dapa84kxy/image/upload/v1646153693/portafolio/barberapp/menu-user-desk_jtgfwl.png"
+    />
+    <img
+      alt="screenshot-proyecto"
+      className="cursor-pointer hover:scale-[1.01] transition-transform duration-300 object-cover max-h-[400px]  mx-auto ring-1"
+      key="https://res.cloudinary.com/dapa84kxy/image/upload/v1646015130/portafolio/barberapp/43985bb6-9674-48b4-9c1a-53ac5c329fbc_lstegh.jpg"
+      onClick={[Function]}
+      src="https://res.cloudinary.com/dapa84kxy/image/upload/v1646015130/portafolio/barberapp/43985bb6-9674-48b4-9c1a-53ac5c329fbc_lstegh.jpg"
+    />
+    <img
+      alt="screenshot-proyecto"
+      className="cursor-pointer hover:scale-[1.01] transition-transform duration-300 object-cover max-h-[400px]  mx-auto ring-1"
+      key="https://res.cloudinary.com/dapa84kxy/image/upload/v1646153692/portafolio/barberapp/menu-barber-desk_p0d8gq.png"
+      onClick={[Function]}
+      src="https://res.cloudinary.com/dapa84kxy/image/upload/v1646153692/portafolio/barberapp/menu-barber-desk_p0d8gq.png"
+    />
+  </div>
+</section>
+`;

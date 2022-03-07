@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`probando <Funcionalidades/> debe montarse correctamente 1`] = `
+<div>
+  <h2
+    className="font-bold text-letra dark:text-letraDark text-lg"
+  >
+    Funcionalidades
+  </h2>
+  <ul
+    className="pl-4 inline-block"
+  >
+    <li
+      className="list-disc hover:text-blue-400 "
+      key="Barbero y cliente"
+    >
+      <a
+        className="underline"
+        href="#Barberoycliente"
+      >
+        Barbero y cliente
+      </a>
+    </li>
+    <li
+      className="list-disc hover:text-blue-400 "
+      key="Login y Registro del barbero"
+    >
+      <a
+        className="underline"
+        href="#LoginyRegistrodelbarbero"
+      >
+        Login y Registro del barbero
+      </a>
+    </li>
+    <li
+      className="list-disc hover:text-blue-400 "
+      key="Login y Registro del cliente"
+    >
+      <a
+        className="underline"
+        href="#LoginyRegistrodelcliente"
+      >
+        Login y Registro del cliente
+      </a>
+    </li>
+    <li
+      className="list-disc hover:text-blue-400 "
+      key="Agendar cita"
+    >
+      <a
+        className="underline"
+        href="#Agendarcita"
+      >
+        Agendar cita
+      </a>
+    </li>
+    <li
+      className="list-disc hover:text-blue-400 "
+      key="Ver citas"
+    >
+      <a
+        className="underline"
+        href="#Vercitas"
+      >
+        Ver citas
+      </a>
+    </li>
+    <li
+      className="list-disc hover:text-blue-400 "
+      key="Ver barberos"
+    >
+      <a
+        className="underline"
+        href="#Verbarberos"
+      >
+        Ver barberos
+      </a>
+    </li>
+    <li
+      className="list-disc hover:text-blue-400 "
+      key="Perfil de barbero"
+    >
+      <a
+        className="underline"
+        href="#Perfildebarbero"
+      >
+        Perfil de barbero
+      </a>
+    </li>
+  </ul>
+</div>
+`;

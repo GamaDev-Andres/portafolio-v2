@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`probando <ArticleDescription/> debe montarse correctamente 1`] = `
+<article
+  className="flex flex-col gap-2"
+>
+  <p>
+    <span
+      className="text-blue-400 font-medium"
+    >
+      Quien soy
+    </span>
+    Mi nombre es Andres Gama, me apasiona encontrar grandes retos que me
+          permitan crecer profesional y personalmente, la programación me
+          permite enfocarme en esto.Actualmente tengo 21 años y sé que lograre
+          que mis conocimientos sean participes de grandes, útiles y reconocidos
+          proyectos.
+  </p>
+  <p>
+    En mí podras ver a un chico ansioso por aprender y dispuesto a
+          afrontar complejas curvas de aprendizaje y gracias a mi constancia y
+          disciplina veras a alguien creciendo constantemente.
+  </p>
+</article>
+`;
