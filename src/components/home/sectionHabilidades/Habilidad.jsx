@@ -1,3 +1,4 @@
+import propTypes from 'prop-types'
 
 const Habilidad = ({ porcentaje, children }) => {
   return (
@@ -13,5 +14,8 @@ const Habilidad = ({ porcentaje, children }) => {
     </div>
   )
 }
-
+Habilidad.propTypes = {
+  porcentaje: propTypes.string.isRequired,
+  children: propTypes.string.isRequired
+}
 export default Habilidad

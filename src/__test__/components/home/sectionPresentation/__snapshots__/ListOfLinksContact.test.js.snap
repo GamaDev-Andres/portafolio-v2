@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`probando <ListOfLinksContact/> debe montarse correctamente 1`] = `
+<div
+  className="py-4 gap-4 flex justify-start items-center flex-wrap"
+>
+  <a
+    className=" text-sm border border-solid shadow-blue-200 shadow-lg border-blue-400 px-6 py-2 rounded-full"
+    href="https://drive.google.com/file/d/1IIUutqCGZL_KSN7NqE-JdRYQl_6Qaqhd/view"
+    rel="noreferrer"
+    target="_blank"
+  >
+    Resumé
+  </a>
+  <a
+    className="p-2 flex flex-col justify-center items-center shadow-md shadow-blue-200 border border-solid border-blue-100"
+    href="https://github.com/GamaDev-Andres"
+    rel="noreferrer"
+    target="_blank"
+  >
+    <i
+      className="fa-brands fa-github"
+    />
+    <span
+      className="text-xs"
+    >
+      Github
+    </span>
+  </a>
+  <a
+    className="p-2 flex flex-col justify-center items-center shadow-md shadow-blue-200 border border-solid border-blue-100"
+    href="https://www.linkedin.com/in/andres-gama/"
+    rel="noreferrer"
+    target="_blank"
+  >
+    <i
+      className="fa-brands fa-linkedin"
+    />
+    <span
+      className="text-xs"
+    >
+      LinkedIn
+    </span>
+  </a>
+</div>
+`;

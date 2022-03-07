@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`probando <SectionPresentation/> debe montarse correctamente 1`] = `
+<section
+  className="sm:flex sm:justify-center sm:items-center md:gap-8 sm:min-h-screen block sm:scroll-m-24 md:scroll-m-14"
+  id="inicio"
+>
+  <figure
+    className="aspect-square p-4 max-w-xs mx-auto rounded-full"
+  >
+    <img
+      alt="foto Andres Gama"
+      className="w-full object-cover object-top  shadow-2xl shadow-blue-200 h-full rounded-full"
+      src={Object {}}
+    />
+  </figure>
+  <div
+    className="max-w-2xl"
+  >
+    Array [
+      <span
+        className="uppercase font-medium text-xl text-fondos"
+      >
+        Hola soy
+      </span>,
+      <h2
+        className="my-4 uppercase font-bold text-3xl "
+      >
+        <span
+          className="text-blue-400"
+        >
+          andres
+        </span>
+         gama
+      </h2>,
+      <p
+        className="whitespace-pre-wrap text-fondos"
+      >
+        Un
+        <span
+          className="text-blue-400 font-medium"
+        >
+           Front-End Web Developer 
+        </span>
+        apasionado por el mundo del desarrollo y por crear aplicaciones e interfaces que aporten y brinden grandes experiencias.
+      </p>,
+    ]
+    <div
+      className="py-4 gap-4 flex justify-start items-center flex-wrap"
+    >
+      <a
+        className=" text-sm border border-solid shadow-blue-200 shadow-lg border-blue-400 px-6 py-2 rounded-full"
+        href="https://drive.google.com/file/d/1IIUutqCGZL_KSN7NqE-JdRYQl_6Qaqhd/view"
+        rel="noreferrer"
+        target="_blank"
+      >
+        Resumé
+      </a>
+      <a
+        className="p-2 flex flex-col justify-center items-center shadow-md shadow-blue-200 border border-solid border-blue-100"
+        href="https://github.com/GamaDev-Andres"
+        rel="noreferrer"
+        target="_blank"
+      >
+        <i
+          className="fa-brands fa-github"
+        />
+        <span
+          className="text-xs"
+        >
+          Github
+        </span>
+      </a>
+      <a
+        className="p-2 flex flex-col justify-center items-center shadow-md shadow-blue-200 border border-solid border-blue-100"
+        href="https://www.linkedin.com/in/andres-gama/"
+        rel="noreferrer"
+        target="_blank"
+      >
+        <i
+          className="fa-brands fa-linkedin"
+        />
+        <span
+          className="text-xs"
+        >
+          LinkedIn
+        </span>
+      </a>
+    </div>
+  </div>
+</section>
+`;

@@ -1,0 +1,116 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`probando <SectionHabilidades/> debe montarse correctamente 1`] = `
+<section
+  className="sm:scroll-m-24 md:scroll-m-14"
+  id="habilidades"
+>
+  <h2
+    className="my-4 uppercase font-bold text-3xl md:text-center"
+  >
+    <span
+      className="text-blue-400"
+    >
+      Mis
+    </span>
+     
+    Habilidades
+  </h2>
+  <div
+    className="flex flex-col gap-2"
+  >
+    <article
+      className="flex flex-col gap-2"
+    >
+      <div
+        className="flex flex-col gap-2"
+      >
+        <div>
+          <span
+            className="font-medium"
+          >
+            Desarrollo front-end
+          </span>
+          <div
+            className="bg-fondos w-full  flex  rounded-full"
+          >
+            <div
+              className="bg-letra  w-[80%] rounded-full p-1"
+            >
+              <span
+                className="text-white w-full text-center block "
+              >
+                80
+                 %
+              </span>
+            </div>
+          </div>
+        </div>
+        <div>
+          <span
+            className="font-medium"
+          >
+            Desarrollo full-stack
+          </span>
+          <div
+            className="bg-fondos w-full  flex  rounded-full"
+          >
+            <div
+              className="bg-letra  w-[70%] rounded-full p-1"
+            >
+              <span
+                className="text-white w-full text-center block "
+              >
+                70
+                 %
+              </span>
+            </div>
+          </div>
+        </div>
+        <div>
+          <span
+            className="font-medium"
+          >
+            Desarrollo web
+          </span>
+          <div
+            className="bg-fondos w-full  flex  rounded-full"
+          >
+            <div
+              className="bg-letra  w-[70%] rounded-full p-1"
+            >
+              <span
+                className="text-white w-full text-center block "
+              >
+                70
+                 %
+              </span>
+            </div>
+          </div>
+        </div>
+        <div>
+          <span
+            className="font-medium"
+          >
+            Desarrollo back-end
+          </span>
+          <div
+            className="bg-fondos w-full  flex  rounded-full"
+          >
+            <div
+              className="bg-letra  w-[60%] rounded-full p-1"
+            >
+              <span
+                className="text-white w-full text-center block "
+              >
+                60
+                 %
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+  </div>
+</section>
+`;

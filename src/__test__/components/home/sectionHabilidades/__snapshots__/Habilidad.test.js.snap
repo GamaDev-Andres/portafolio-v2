@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`probando <Habilidad/> debe montarse correctamente 1`] = `
+<div>
+  <span
+    className="font-medium"
+  >
+    Desarrollo front-end
+  </span>
+  <div
+    className="bg-fondos w-full  flex  rounded-full"
+  >
+    <div
+      className="bg-letra  w-[80%] rounded-full p-1"
+    >
+      <span
+        className="text-white w-full text-center block "
+      >
+        80
+         %
+      </span>
+    </div>
+  </div>
+</div>
+`;

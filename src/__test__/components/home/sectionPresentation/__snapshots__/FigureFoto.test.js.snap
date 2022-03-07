@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`probando <FigureFoto/> debe montarse correctamente 1`] = `
+<figure
+  className="aspect-square p-4 max-w-xs mx-auto rounded-full"
+>
+  <img
+    alt="foto Andres Gama"
+    className="w-full object-cover object-top  shadow-2xl shadow-blue-200 h-full rounded-full"
+    src={Object {}}
+  />
+</figure>
+`;
