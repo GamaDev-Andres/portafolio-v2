@@ -47,7 +47,8 @@
       "<rootDir>/src/__test__/setupTest.js"
     ],
     "moduleNameMapper": {
-      "\\.(css|scss|sass|svg|jpg|png)$": "<rootDir>/src/__mocks__/styleMock.js"
+      "\\.(pdf|css|scss|sass|svg|jpg|png)$": "<rootDir>/src/__mocks__/styleMock.js",
+      "\\Andres-Gama-CV-Fullstack-developer.pdf$": "<rootDir>/src/__mocks__/styleMock.js"
     }
   }
 }

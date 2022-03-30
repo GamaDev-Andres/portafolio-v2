@@ -50,9 +50,8 @@ exports[`probando <SectionPresentation/> debe montarse correctamente 1`] = `
     >
       <a
         className=" text-sm border border-solid shadow-blue-200 shadow-lg border-blue-400 px-6 py-2 rounded-full"
-        href="https://drive.google.com/file/d/1IIUutqCGZL_KSN7NqE-JdRYQl_6Qaqhd/view"
-        rel="noreferrer"
-        target="_blank"
+        download="Andres-Gama-CV-Fullstack-developer.pdf"
+        href={Object {}}
       >
         Resumé
       </a>
