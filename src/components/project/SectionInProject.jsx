@@ -16,13 +16,14 @@ const SectionInProject = ({ titulo, descripcion, arrImgs }) => {
       <p>{descripcion}</p>
       <div className="flex flex-wrap pt-4 gap-4 items-center">
         {arrImgs.map((el) => (
-          <img
-            onClick={() => setIsOpenModal(el)}
-            className="cursor-pointer hover:scale-[1.01] transition-transform duration-300 object-cover max-h-[400px]  mx-auto ring-1"
-            src={el}
-            alt="screenshot-proyecto"
-            key={el}
-          />
+          <div className="mx-auto sm:m-0" key={el}>
+            <img
+              onClick={() => setIsOpenModal(el)}
+              className="cursor-pointer hover:scale-[1.01] transition-transform duration-300 object-cover max-h-[200px]  mx-auto ring-1"
+              src={el}
+              alt="screenshot-proyecto"
+            />
+          </div>
         ))}
       </div>
       {isOpenModal && (
