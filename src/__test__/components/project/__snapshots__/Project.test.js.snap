@@ -171,34 +171,50 @@ Array [
         <div
           className="flex flex-wrap pt-4 gap-4 items-center"
         >
-          <img
-            alt="screenshot-proyecto"
-            className="cursor-pointer hover:scale-[1.01] transition-transform duration-300 object-cover max-h-[400px]  mx-auto ring-1"
+          <div
+            className="mx-auto sm:m-0"
             key="https://res.cloudinary.com/dapa84kxy/image/upload/v1646015171/portafolio/barberapp/64f2c810-73b7-4dfd-9c12-07d35d36e862_txgsvq.jpg"
-            onClick={[Function]}
-            src="https://res.cloudinary.com/dapa84kxy/image/upload/v1646015171/portafolio/barberapp/64f2c810-73b7-4dfd-9c12-07d35d36e862_txgsvq.jpg"
-          />
-          <img
-            alt="screenshot-proyecto"
-            className="cursor-pointer hover:scale-[1.01] transition-transform duration-300 object-cover max-h-[400px]  mx-auto ring-1"
+          >
+            <img
+              alt="screenshot-proyecto"
+              className="cursor-pointer hover:scale-[1.01] transition-transform duration-300 object-cover max-h-[200px]  mx-auto ring-1"
+              onClick={[Function]}
+              src="https://res.cloudinary.com/dapa84kxy/image/upload/v1646015171/portafolio/barberapp/64f2c810-73b7-4dfd-9c12-07d35d36e862_txgsvq.jpg"
+            />
+          </div>
+          <div
+            className="mx-auto sm:m-0"
             key="https://res.cloudinary.com/dapa84kxy/image/upload/v1646153693/portafolio/barberapp/menu-user-desk_jtgfwl.png"
-            onClick={[Function]}
-            src="https://res.cloudinary.com/dapa84kxy/image/upload/v1646153693/portafolio/barberapp/menu-user-desk_jtgfwl.png"
-          />
-          <img
-            alt="screenshot-proyecto"
-            className="cursor-pointer hover:scale-[1.01] transition-transform duration-300 object-cover max-h-[400px]  mx-auto ring-1"
+          >
+            <img
+              alt="screenshot-proyecto"
+              className="cursor-pointer hover:scale-[1.01] transition-transform duration-300 object-cover max-h-[200px]  mx-auto ring-1"
+              onClick={[Function]}
+              src="https://res.cloudinary.com/dapa84kxy/image/upload/v1646153693/portafolio/barberapp/menu-user-desk_jtgfwl.png"
+            />
+          </div>
+          <div
+            className="mx-auto sm:m-0"
             key="https://res.cloudinary.com/dapa84kxy/image/upload/v1646015130/portafolio/barberapp/43985bb6-9674-48b4-9c1a-53ac5c329fbc_lstegh.jpg"
-            onClick={[Function]}
-            src="https://res.cloudinary.com/dapa84kxy/image/upload/v1646015130/portafolio/barberapp/43985bb6-9674-48b4-9c1a-53ac5c329fbc_lstegh.jpg"
-          />
-          <img
-            alt="screenshot-proyecto"
-            className="cursor-pointer hover:scale-[1.01] transition-transform duration-300 object-cover max-h-[400px]  mx-auto ring-1"
+          >
+            <img
+              alt="screenshot-proyecto"
+              className="cursor-pointer hover:scale-[1.01] transition-transform duration-300 object-cover max-h-[200px]  mx-auto ring-1"
+              onClick={[Function]}
+              src="https://res.cloudinary.com/dapa84kxy/image/upload/v1646015130/portafolio/barberapp/43985bb6-9674-48b4-9c1a-53ac5c329fbc_lstegh.jpg"
+            />
+          </div>
+          <div
+            className="mx-auto sm:m-0"
             key="https://res.cloudinary.com/dapa84kxy/image/upload/v1646153692/portafolio/barberapp/menu-barber-desk_p0d8gq.png"
-            onClick={[Function]}
-            src="https://res.cloudinary.com/dapa84kxy/image/upload/v1646153692/portafolio/barberapp/menu-barber-desk_p0d8gq.png"
-          />
+          >
+            <img
+              alt="screenshot-proyecto"
+              className="cursor-pointer hover:scale-[1.01] transition-transform duration-300 object-cover max-h-[200px]  mx-auto ring-1"
+              onClick={[Function]}
+              src="https://res.cloudinary.com/dapa84kxy/image/upload/v1646153692/portafolio/barberapp/menu-barber-desk_p0d8gq.png"
+            />
+          </div>
         </div>
       </section>
       <section
@@ -216,34 +232,50 @@ Array [
         <div
           className="flex flex-wrap pt-4 gap-4 items-center"
         >
-          <img
-            alt="screenshot-proyecto"
-            className="cursor-pointer hover:scale-[1.01] transition-transform duration-300 object-cover max-h-[400px]  mx-auto ring-1"
+          <div
+            className="mx-auto sm:m-0"
             key="https://res.cloudinary.com/dapa84kxy/image/upload/v1646153268/portafolio/barberapp/d2134e1a-b32e-4874-9ed9-3100704bd5f2_x39y1s.jpg"
-            onClick={[Function]}
-            src="https://res.cloudinary.com/dapa84kxy/image/upload/v1646153268/portafolio/barberapp/d2134e1a-b32e-4874-9ed9-3100704bd5f2_x39y1s.jpg"
-          />
-          <img
-            alt="screenshot-proyecto"
-            className="cursor-pointer hover:scale-[1.01] transition-transform duration-300 object-cover max-h-[400px]  mx-auto ring-1"
+          >
+            <img
+              alt="screenshot-proyecto"
+              className="cursor-pointer hover:scale-[1.01] transition-transform duration-300 object-cover max-h-[200px]  mx-auto ring-1"
+              onClick={[Function]}
+              src="https://res.cloudinary.com/dapa84kxy/image/upload/v1646153268/portafolio/barberapp/d2134e1a-b32e-4874-9ed9-3100704bd5f2_x39y1s.jpg"
+            />
+          </div>
+          <div
+            className="mx-auto sm:m-0"
             key="https://res.cloudinary.com/dapa84kxy/image/upload/v1646153148/portafolio/barberapp/registraradmin-desk_mzkcy4.png"
-            onClick={[Function]}
-            src="https://res.cloudinary.com/dapa84kxy/image/upload/v1646153148/portafolio/barberapp/registraradmin-desk_mzkcy4.png"
-          />
-          <img
-            alt="screenshot-proyecto"
-            className="cursor-pointer hover:scale-[1.01] transition-transform duration-300 object-cover max-h-[400px]  mx-auto ring-1"
+          >
+            <img
+              alt="screenshot-proyecto"
+              className="cursor-pointer hover:scale-[1.01] transition-transform duration-300 object-cover max-h-[200px]  mx-auto ring-1"
+              onClick={[Function]}
+              src="https://res.cloudinary.com/dapa84kxy/image/upload/v1646153148/portafolio/barberapp/registraradmin-desk_mzkcy4.png"
+            />
+          </div>
+          <div
+            className="mx-auto sm:m-0"
             key="https://res.cloudinary.com/dapa84kxy/image/upload/v1646153264/portafolio/barberapp/79bf791f-0f1c-4f7d-9e3c-15e3fdd527e3_jwoh5m.jpg"
-            onClick={[Function]}
-            src="https://res.cloudinary.com/dapa84kxy/image/upload/v1646153264/portafolio/barberapp/79bf791f-0f1c-4f7d-9e3c-15e3fdd527e3_jwoh5m.jpg"
-          />
-          <img
-            alt="screenshot-proyecto"
-            className="cursor-pointer hover:scale-[1.01] transition-transform duration-300 object-cover max-h-[400px]  mx-auto ring-1"
+          >
+            <img
+              alt="screenshot-proyecto"
+              className="cursor-pointer hover:scale-[1.01] transition-transform duration-300 object-cover max-h-[200px]  mx-auto ring-1"
+              onClick={[Function]}
+              src="https://res.cloudinary.com/dapa84kxy/image/upload/v1646153264/portafolio/barberapp/79bf791f-0f1c-4f7d-9e3c-15e3fdd527e3_jwoh5m.jpg"
+            />
+          </div>
+          <div
+            className="mx-auto sm:m-0"
             key="https://res.cloudinary.com/dapa84kxy/image/upload/v1646153147/portafolio/barberapp/registrobarbero-desk_htsmwn.png"
-            onClick={[Function]}
-            src="https://res.cloudinary.com/dapa84kxy/image/upload/v1646153147/portafolio/barberapp/registrobarbero-desk_htsmwn.png"
-          />
+          >
+            <img
+              alt="screenshot-proyecto"
+              className="cursor-pointer hover:scale-[1.01] transition-transform duration-300 object-cover max-h-[200px]  mx-auto ring-1"
+              onClick={[Function]}
+              src="https://res.cloudinary.com/dapa84kxy/image/upload/v1646153147/portafolio/barberapp/registrobarbero-desk_htsmwn.png"
+            />
+          </div>
         </div>
       </section>
       <section
@@ -261,20 +293,28 @@ Array [
         <div
           className="flex flex-wrap pt-4 gap-4 items-center"
         >
-          <img
-            alt="screenshot-proyecto"
-            className="cursor-pointer hover:scale-[1.01] transition-transform duration-300 object-cover max-h-[400px]  mx-auto ring-1"
+          <div
+            className="mx-auto sm:m-0"
             key="https://res.cloudinary.com/dapa84kxy/image/upload/v1646015192/portafolio/barberapp/90e0239c-e961-484e-b4ef-042d741e72e9_m7udyu.jpg"
-            onClick={[Function]}
-            src="https://res.cloudinary.com/dapa84kxy/image/upload/v1646015192/portafolio/barberapp/90e0239c-e961-484e-b4ef-042d741e72e9_m7udyu.jpg"
-          />
-          <img
-            alt="screenshot-proyecto"
-            className="cursor-pointer hover:scale-[1.01] transition-transform duration-300 object-cover max-h-[400px]  mx-auto ring-1"
+          >
+            <img
+              alt="screenshot-proyecto"
+              className="cursor-pointer hover:scale-[1.01] transition-transform duration-300 object-cover max-h-[200px]  mx-auto ring-1"
+              onClick={[Function]}
+              src="https://res.cloudinary.com/dapa84kxy/image/upload/v1646015192/portafolio/barberapp/90e0239c-e961-484e-b4ef-042d741e72e9_m7udyu.jpg"
+            />
+          </div>
+          <div
+            className="mx-auto sm:m-0"
             key="https://res.cloudinary.com/dapa84kxy/image/upload/v1644874961/portafolio/barberapp/barberapp_sdpgwl.png"
-            onClick={[Function]}
-            src="https://res.cloudinary.com/dapa84kxy/image/upload/v1644874961/portafolio/barberapp/barberapp_sdpgwl.png"
-          />
+          >
+            <img
+              alt="screenshot-proyecto"
+              className="cursor-pointer hover:scale-[1.01] transition-transform duration-300 object-cover max-h-[200px]  mx-auto ring-1"
+              onClick={[Function]}
+              src="https://res.cloudinary.com/dapa84kxy/image/upload/v1644874961/portafolio/barberapp/barberapp_sdpgwl.png"
+            />
+          </div>
         </div>
       </section>
       <section
@@ -292,20 +332,28 @@ Array [
         <div
           className="flex flex-wrap pt-4 gap-4 items-center"
         >
-          <img
-            alt="screenshot-proyecto"
-            className="cursor-pointer hover:scale-[1.01] transition-transform duration-300 object-cover max-h-[400px]  mx-auto ring-1"
+          <div
+            className="mx-auto sm:m-0"
             key="https://res.cloudinary.com/dapa84kxy/image/upload/v1646015165/portafolio/barberapp/e78ae585-a9d8-4e98-955d-85fc502cee0d_ubuoje.jpg"
-            onClick={[Function]}
-            src="https://res.cloudinary.com/dapa84kxy/image/upload/v1646015165/portafolio/barberapp/e78ae585-a9d8-4e98-955d-85fc502cee0d_ubuoje.jpg"
-          />
-          <img
-            alt="screenshot-proyecto"
-            className="cursor-pointer hover:scale-[1.01] transition-transform duration-300 object-cover max-h-[400px]  mx-auto ring-1"
+          >
+            <img
+              alt="screenshot-proyecto"
+              className="cursor-pointer hover:scale-[1.01] transition-transform duration-300 object-cover max-h-[200px]  mx-auto ring-1"
+              onClick={[Function]}
+              src="https://res.cloudinary.com/dapa84kxy/image/upload/v1646015165/portafolio/barberapp/e78ae585-a9d8-4e98-955d-85fc502cee0d_ubuoje.jpg"
+            />
+          </div>
+          <div
+            className="mx-auto sm:m-0"
             key="https://res.cloudinary.com/dapa84kxy/image/upload/v1646100418/portafolio/barberapp/agendar-barberapp-desk_oc67ox.png"
-            onClick={[Function]}
-            src="https://res.cloudinary.com/dapa84kxy/image/upload/v1646100418/portafolio/barberapp/agendar-barberapp-desk_oc67ox.png"
-          />
+          >
+            <img
+              alt="screenshot-proyecto"
+              className="cursor-pointer hover:scale-[1.01] transition-transform duration-300 object-cover max-h-[200px]  mx-auto ring-1"
+              onClick={[Function]}
+              src="https://res.cloudinary.com/dapa84kxy/image/upload/v1646100418/portafolio/barberapp/agendar-barberapp-desk_oc67ox.png"
+            />
+          </div>
         </div>
       </section>
       <section
@@ -323,20 +371,28 @@ Array [
         <div
           className="flex flex-wrap pt-4 gap-4 items-center"
         >
-          <img
-            alt="screenshot-proyecto"
-            className="cursor-pointer hover:scale-[1.01] transition-transform duration-300 object-cover max-h-[400px]  mx-auto ring-1"
+          <div
+            className="mx-auto sm:m-0"
             key="https://res.cloudinary.com/dapa84kxy/image/upload/v1646015153/portafolio/barberapp/c05b9c5d-e36c-4ab6-bfa6-e1881bbef6cc_rtxtto.jpg"
-            onClick={[Function]}
-            src="https://res.cloudinary.com/dapa84kxy/image/upload/v1646015153/portafolio/barberapp/c05b9c5d-e36c-4ab6-bfa6-e1881bbef6cc_rtxtto.jpg"
-          />
-          <img
-            alt="screenshot-proyecto"
-            className="cursor-pointer hover:scale-[1.01] transition-transform duration-300 object-cover max-h-[400px]  mx-auto ring-1"
+          >
+            <img
+              alt="screenshot-proyecto"
+              className="cursor-pointer hover:scale-[1.01] transition-transform duration-300 object-cover max-h-[200px]  mx-auto ring-1"
+              onClick={[Function]}
+              src="https://res.cloudinary.com/dapa84kxy/image/upload/v1646015153/portafolio/barberapp/c05b9c5d-e36c-4ab6-bfa6-e1881bbef6cc_rtxtto.jpg"
+            />
+          </div>
+          <div
+            className="mx-auto sm:m-0"
             key="https://res.cloudinary.com/dapa84kxy/image/upload/v1646100548/portafolio/barberapp/citas-barberapp-desk_fiskup.png"
-            onClick={[Function]}
-            src="https://res.cloudinary.com/dapa84kxy/image/upload/v1646100548/portafolio/barberapp/citas-barberapp-desk_fiskup.png"
-          />
+          >
+            <img
+              alt="screenshot-proyecto"
+              className="cursor-pointer hover:scale-[1.01] transition-transform duration-300 object-cover max-h-[200px]  mx-auto ring-1"
+              onClick={[Function]}
+              src="https://res.cloudinary.com/dapa84kxy/image/upload/v1646100548/portafolio/barberapp/citas-barberapp-desk_fiskup.png"
+            />
+          </div>
         </div>
       </section>
       <section
@@ -354,27 +410,39 @@ Array [
         <div
           className="flex flex-wrap pt-4 gap-4 items-center"
         >
-          <img
-            alt="screenshot-proyecto"
-            className="cursor-pointer hover:scale-[1.01] transition-transform duration-300 object-cover max-h-[400px]  mx-auto ring-1"
+          <div
+            className="mx-auto sm:m-0"
             key="https://res.cloudinary.com/dapa84kxy/image/upload/v1646015160/portafolio/barberapp/1453c605-7799-45a1-bdb3-7db906ec2440_pwnnhw.jpg"
-            onClick={[Function]}
-            src="https://res.cloudinary.com/dapa84kxy/image/upload/v1646015160/portafolio/barberapp/1453c605-7799-45a1-bdb3-7db906ec2440_pwnnhw.jpg"
-          />
-          <img
-            alt="screenshot-proyecto"
-            className="cursor-pointer hover:scale-[1.01] transition-transform duration-300 object-cover max-h-[400px]  mx-auto ring-1"
+          >
+            <img
+              alt="screenshot-proyecto"
+              className="cursor-pointer hover:scale-[1.01] transition-transform duration-300 object-cover max-h-[200px]  mx-auto ring-1"
+              onClick={[Function]}
+              src="https://res.cloudinary.com/dapa84kxy/image/upload/v1646015160/portafolio/barberapp/1453c605-7799-45a1-bdb3-7db906ec2440_pwnnhw.jpg"
+            />
+          </div>
+          <div
+            className="mx-auto sm:m-0"
             key="https://res.cloudinary.com/dapa84kxy/image/upload/v1646100662/portafolio/barberapp/barberos-barberapp-desk_tqbcqo.png"
-            onClick={[Function]}
-            src="https://res.cloudinary.com/dapa84kxy/image/upload/v1646100662/portafolio/barberapp/barberos-barberapp-desk_tqbcqo.png"
-          />
-          <img
-            alt="screenshot-proyecto"
-            className="cursor-pointer hover:scale-[1.01] transition-transform duration-300 object-cover max-h-[400px]  mx-auto ring-1"
+          >
+            <img
+              alt="screenshot-proyecto"
+              className="cursor-pointer hover:scale-[1.01] transition-transform duration-300 object-cover max-h-[200px]  mx-auto ring-1"
+              onClick={[Function]}
+              src="https://res.cloudinary.com/dapa84kxy/image/upload/v1646100662/portafolio/barberapp/barberos-barberapp-desk_tqbcqo.png"
+            />
+          </div>
+          <div
+            className="mx-auto sm:m-0"
             key="https://res.cloudinary.com/dapa84kxy/image/upload/v1646100753/portafolio/barberapp/Image_4_pqyacf.png"
-            onClick={[Function]}
-            src="https://res.cloudinary.com/dapa84kxy/image/upload/v1646100753/portafolio/barberapp/Image_4_pqyacf.png"
-          />
+          >
+            <img
+              alt="screenshot-proyecto"
+              className="cursor-pointer hover:scale-[1.01] transition-transform duration-300 object-cover max-h-[200px]  mx-auto ring-1"
+              onClick={[Function]}
+              src="https://res.cloudinary.com/dapa84kxy/image/upload/v1646100753/portafolio/barberapp/Image_4_pqyacf.png"
+            />
+          </div>
         </div>
       </section>
       <section
@@ -392,27 +460,39 @@ Array [
         <div
           className="flex flex-wrap pt-4 gap-4 items-center"
         >
-          <img
-            alt="screenshot-proyecto"
-            className="cursor-pointer hover:scale-[1.01] transition-transform duration-300 object-cover max-h-[400px]  mx-auto ring-1"
+          <div
+            className="mx-auto sm:m-0"
             key="https://res.cloudinary.com/dapa84kxy/image/upload/v1646015113/portafolio/barberapp/a10fa6e2-39da-455d-81d0-11f4d5ca4cfc_ouzbkh.jpg"
-            onClick={[Function]}
-            src="https://res.cloudinary.com/dapa84kxy/image/upload/v1646015113/portafolio/barberapp/a10fa6e2-39da-455d-81d0-11f4d5ca4cfc_ouzbkh.jpg"
-          />
-          <img
-            alt="screenshot-proyecto"
-            className="cursor-pointer hover:scale-[1.01] transition-transform duration-300 object-cover max-h-[400px]  mx-auto ring-1"
+          >
+            <img
+              alt="screenshot-proyecto"
+              className="cursor-pointer hover:scale-[1.01] transition-transform duration-300 object-cover max-h-[200px]  mx-auto ring-1"
+              onClick={[Function]}
+              src="https://res.cloudinary.com/dapa84kxy/image/upload/v1646015113/portafolio/barberapp/a10fa6e2-39da-455d-81d0-11f4d5ca4cfc_ouzbkh.jpg"
+            />
+          </div>
+          <div
+            className="mx-auto sm:m-0"
             key="https://res.cloudinary.com/dapa84kxy/image/upload/c_scale,h_1079/v1646097636/portafolio/barberapp/637b8db2-1301-4f12-bb8c-177005cb2c48_sy9vix.jpg"
-            onClick={[Function]}
-            src="https://res.cloudinary.com/dapa84kxy/image/upload/c_scale,h_1079/v1646097636/portafolio/barberapp/637b8db2-1301-4f12-bb8c-177005cb2c48_sy9vix.jpg"
-          />
-          <img
-            alt="screenshot-proyecto"
-            className="cursor-pointer hover:scale-[1.01] transition-transform duration-300 object-cover max-h-[400px]  mx-auto ring-1"
+          >
+            <img
+              alt="screenshot-proyecto"
+              className="cursor-pointer hover:scale-[1.01] transition-transform duration-300 object-cover max-h-[200px]  mx-auto ring-1"
+              onClick={[Function]}
+              src="https://res.cloudinary.com/dapa84kxy/image/upload/c_scale,h_1079/v1646097636/portafolio/barberapp/637b8db2-1301-4f12-bb8c-177005cb2c48_sy9vix.jpg"
+            />
+          </div>
+          <div
+            className="mx-auto sm:m-0"
             key="https://res.cloudinary.com/dapa84kxy/image/upload/v1646015074/portafolio/barberapp/879b6616-b450-43ff-8f5f-e11607ec392f_uhussk.jpg"
-            onClick={[Function]}
-            src="https://res.cloudinary.com/dapa84kxy/image/upload/v1646015074/portafolio/barberapp/879b6616-b450-43ff-8f5f-e11607ec392f_uhussk.jpg"
-          />
+          >
+            <img
+              alt="screenshot-proyecto"
+              className="cursor-pointer hover:scale-[1.01] transition-transform duration-300 object-cover max-h-[200px]  mx-auto ring-1"
+              onClick={[Function]}
+              src="https://res.cloudinary.com/dapa84kxy/image/upload/v1646015074/portafolio/barberapp/879b6616-b450-43ff-8f5f-e11607ec392f_uhussk.jpg"
+            />
+          </div>
         </div>
       </section>
     </div>

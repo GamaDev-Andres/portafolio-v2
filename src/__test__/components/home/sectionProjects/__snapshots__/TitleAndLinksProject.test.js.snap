@@ -6,11 +6,11 @@ exports[`probando <TitleAndLinksProject/> debe montarse correctamente 1`] = `
 >
   <a
     className="font-bold text-blue-400 text-center mx-auto text-xl"
-    href="https://barberappag.netlify.app/"
+    href="https://insta-gama.vercel.app/"
     rel="noreferrer"
     target="_blank"
   >
-    BARBERAPP
+    INSTAGAMA
      
     <i
       className="text-sm fa-solid fa-link dark:text-letraDark text-fondos"
@@ -18,7 +18,7 @@ exports[`probando <TitleAndLinksProject/> debe montarse correctamente 1`] = `
   </a>
   <a
     className="absolute top-2 right-0 text-xl block text-letra"
-    href="https://github.com/GamaDev-Andres/BarberApp-fe"
+    href="https://github.com/GamaDev-Andres/instaGama"
     rel="noreferrer"
     target="_blank"
   >

@@ -9,7 +9,7 @@ import { proyectos } from '../../../helpers/data'
 import AppRouter from '../../../routes/AppRouter'
 
 describe('probando <SectionProject/>', () => {
-  const proyecto = proyectos[0].detalles[0]
+  const proyecto = proyectos.find(project => project.detalles).detalles[0]
   test('debe montarse correctamente ', () => {
     const wrapper = Enzyme.mount(
       <SectionInProject titulo={proyecto.titulo} arrImgs={proyecto.fotos} descripcion={proyecto.data} />

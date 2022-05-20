@@ -1,4 +1,4 @@
-import cv from '../../../assets/pdf/Andres-Gama-CV-Fullstack-developer.pdf'
+import cv from '../../../assets/pdf/Andres-Gama-Fullstack-developer-jr.pdf'
 
 const ListOfLinksContact = () => {
   return (

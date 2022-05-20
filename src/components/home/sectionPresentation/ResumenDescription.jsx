@@ -12,7 +12,7 @@ const ResumenDescription = () => {
       <p className="whitespace-pre-wrap text-fondos">
         Un
         <span className="text-blue-400 font-medium">
-          {' Front-End Web Developer '}
+          {' Fullstack Web Developer '}
         </span>
         {miDescripcion.presentacion}
       </p>

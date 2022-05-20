@@ -137,7 +137,7 @@ exports[`probando <App/> debe montarse correctamente 1`] = `
                 <span
                   className="text-blue-400 font-medium"
                 >
-                   Front-End Web Developer 
+                  Fullstack Web Developer 
                 </span>
                 apasionado por el mundo del desarrollo y por crear aplicaciones e interfaces que aporten y brinden grandes experiencias.
               </p>,
@@ -370,6 +370,129 @@ exports[`probando <App/> debe montarse correctamente 1`] = `
           <div
             className="grid grid-cols-1 md:grid-cols-layoutCards gap-8"
           >
+            <div
+              className=" shadow-blue-200 shadow-md rounded-2xl rounded-t-none transition-colors duration-150 bg-white dark:bg-baseDark text-fondos"
+            >
+              <a
+                className="w-full block aspect-video"
+                href="https://insta-gama.vercel.app/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <img
+                  alt="project"
+                  className="w-full aspect-video object-cover"
+                  src="https://res.cloudinary.com/dapa84kxy/image/upload/v1652509941/portafolio/instaGama/Image_1_n55ffj.png"
+                />
+              </a>
+              <div
+                className="px-4 pb-4"
+              >
+                <div
+                  className="relative py-2 flex justify-center items-center"
+                >
+                  <a
+                    className="font-bold text-blue-400 text-center mx-auto text-xl"
+                    href="https://insta-gama.vercel.app/"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    INSTAGAMA
+                     
+                    <i
+                      className="text-sm fa-solid fa-link dark:text-letraDark text-fondos"
+                    />
+                  </a>
+                  <a
+                    className="absolute top-2 right-0 text-xl block text-letra"
+                    href="https://github.com/GamaDev-Andres/instaGama"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    <i
+                      className="dark:text-letraDark fa-brands fa-github"
+                    />
+                  </a>
+                </div>
+                <div>
+                  <h3
+                    className=" dark:text-letraDark text-letra font-medium"
+                  >
+                    Descripción
+                  </h3>
+                  <p>
+                    Proyecto con objetivo académico y practico , en donde creo un clon funcional de Instagram con sus funcionalidades básicas. implementando tecnologías como vite, MERN, sockets entre otras.
+                  </p>
+                </div>
+                <div>
+                  <h3
+                    className="text-letra font-medium dark:text-letraDark"
+                  >
+                    Tecnologias implementadas
+                  </h3>
+                  <ul
+                    className="flex gap-2 flex-wrap py-2"
+                  >
+                    <li
+                      className="px-2 py-1 border border-bordes rounded-full"
+                      key="React"
+                    >
+                      <span>
+                        React
+                      </span>
+                    </li>
+                    <li
+                      className="px-2 py-1 border border-bordes rounded-full"
+                      key="Node"
+                    >
+                      <span>
+                        Node
+                      </span>
+                    </li>
+                    <li
+                      className="px-2 py-1 border border-bordes rounded-full"
+                      key="Express"
+                    >
+                      <span>
+                        Express
+                      </span>
+                    </li>
+                    <li
+                      className="px-2 py-1 border border-bordes rounded-full"
+                      key="MongoDb"
+                    >
+                      <span>
+                        MongoDb
+                      </span>
+                    </li>
+                    <li
+                      className="px-2 py-1 border border-bordes rounded-full"
+                      key="Tailwindcss"
+                    >
+                      <span>
+                        Tailwindcss
+                      </span>
+                    </li>
+                    <li
+                      className="px-2 py-1 border border-bordes rounded-full"
+                      key="Sockets.io"
+                    >
+                      <span>
+                        Sockets.io
+                      </span>
+                    </li>
+                    <li
+                      className="px-2 py-1 border border-bordes rounded-full"
+                      key="Cloudinary"
+                    >
+                      <span>
+                        Cloudinary
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
             <div
               className=" shadow-blue-200 shadow-md rounded-2xl rounded-t-none transition-colors duration-150 bg-white dark:bg-baseDark text-fondos"
             >

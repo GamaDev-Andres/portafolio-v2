@@ -8,7 +8,7 @@ import Funcionalidades from '../../../components/project/Funcionalidades'
 import { proyectos } from '../../../helpers/data'
 import AppRouter from '../../../routes/AppRouter'
 describe('probando <Funcionalidades/>', () => {
-  const proyecto = proyectos[0]
+  const proyecto = proyectos.find(project => project.detalles)
   test('debe montarse correctamente', () => {
     const wrapper = Enzyme.mount(
       <Funcionalidades proyecto={proyecto} />

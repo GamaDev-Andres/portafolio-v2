@@ -4,6 +4,17 @@
 import { miDescripcion, proyectos } from '../../helpers/data'
 const proyectosForTest = [
   {
+    titulo: 'INSTAGAMA',
+    descripcion:
+      'Proyecto con objetivo académico y practico , en donde creo un clon funcional de Instagram con sus funcionalidades básicas. implementando tecnologías como vite, MERN, sockets entre otras.',
+    tecnologias: ['React', 'Node', 'Express', 'MongoDb', 'Tailwindcss', 'Sockets.io', 'Cloudinary'],
+    url: 'https://insta-gama.vercel.app/',
+    codigo: 'https://github.com/GamaDev-Andres/instaGama',
+    poster:
+      'https://res.cloudinary.com/dapa84kxy/image/upload/v1652509941/portafolio/instaGama/Image_1_n55ffj.png',
+    fotos: []
+  },
+  {
     titulo: 'BARBERAPP',
     descripcion: `Aplicación realizada con el stack MERN y styled components,
      enfocada en la administración de una barbería en donde el cliente tiene 
@@ -184,6 +195,7 @@ const proyectosForTest = [
     fotos: []
   }
 ]
+
 const miDescripcionForTest = {
   quienSoy: {
     parrafo1: `Mi nombre es Andres Gama, me apasiona encontrar grandes retos que me
