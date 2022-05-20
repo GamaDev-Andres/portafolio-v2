@@ -29,12 +29,13 @@ const Project = () => {
         />
         <Funcionalidades proyecto={proyecto} />
         <div className="grid grid-cols-1 gap-4">
-          {proyecto.detalles.map((detalle) => (
+          {proyecto.detalles?.map((detalle) => (
             <SectionInProject
               key={detalle.titulo}
               titulo={detalle.titulo}
               descripcion={detalle.data}
               arrImgs={detalle.fotos}
+              arrVideos={detalle.videos}
             />
           ))}
         </div>

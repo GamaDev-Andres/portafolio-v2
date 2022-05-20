@@ -137,7 +137,7 @@ exports[`probando <App/> debe montarse correctamente 1`] = `
                 <span
                   className="text-blue-400 font-medium"
                 >
-                  Fullstack Web Developer 
+                   Fullstack Web Developer 
                 </span>
                 apasionado por el mundo del desarrollo y por crear aplicaciones e interfaces que aporten y brinden grandes experiencias.
               </p>,
@@ -491,6 +491,14 @@ exports[`probando <App/> debe montarse correctamente 1`] = `
                     </li>
                   </ul>
                 </div>
+                <a
+                  className=" hover:shadow-lg hover:shadow-blue-300 text-sm text-center mx-auto block mt-4 border border-solid shadow-blue-200 shadow-md border-blue-400 px-6 py-2 rounded-full"
+                  href="/project/INSTAGAMA"
+                  onClick={[Function]}
+                  rel="noreferrer"
+                >
+                  Ver más detalles
+                </a>
               </div>
             </div>
             <div

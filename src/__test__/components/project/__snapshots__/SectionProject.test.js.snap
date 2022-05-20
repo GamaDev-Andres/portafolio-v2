@@ -3,61 +3,29 @@
 exports[`probando <SectionProject/> debe montarse correctamente  1`] = `
 <section
   className="text-fondos scroll-m-14"
-  id="Barberoycliente"
+  id="VideopresentaciondeInstaGama"
 >
   <h3
     className="uppercase text-blue-400 font-semibold text-2xl my-4"
   >
-    Barbero y cliente
+    Video presentacion de InstaGama
   </h3>
   <p>
-    BARBERAPP nos da brinda la posibilidad de que tanto clientes como barberos tengan una cuenta. Un cliente podrá agendar citas con el barbero de su preferencia y por otro lado el barbero en su cuenta de BARBBERAPP podrá ver estas citas agendadas y decidir si aceptarlas o rechazarlas.
+    En este video se resumen las funcionalidades principales del proyecto.
   </p>
   <div
     className="flex flex-wrap pt-4 gap-4 items-center"
   >
     <div
-      className="mx-auto sm:m-0"
-      key="https://res.cloudinary.com/dapa84kxy/image/upload/v1646015171/portafolio/barberapp/64f2c810-73b7-4dfd-9c12-07d35d36e862_txgsvq.jpg"
+      className="mx-auto sm:m-0 w-full center"
+      key="https://res.cloudinary.com/dapa84kxy/video/upload/v1653062397/portafolio/2022-05-14_22-38-31_ru2dv2.mp4"
     >
-      <img
+      <video
         alt="screenshot-proyecto"
-        className="cursor-pointer hover:scale-[1.01] transition-transform duration-300 object-cover max-h-[200px]  mx-auto ring-1"
-        onClick={[Function]}
-        src="https://res.cloudinary.com/dapa84kxy/image/upload/v1646015171/portafolio/barberapp/64f2c810-73b7-4dfd-9c12-07d35d36e862_txgsvq.jpg"
-      />
-    </div>
-    <div
-      className="mx-auto sm:m-0"
-      key="https://res.cloudinary.com/dapa84kxy/image/upload/v1646153693/portafolio/barberapp/menu-user-desk_jtgfwl.png"
-    >
-      <img
-        alt="screenshot-proyecto"
-        className="cursor-pointer hover:scale-[1.01] transition-transform duration-300 object-cover max-h-[200px]  mx-auto ring-1"
-        onClick={[Function]}
-        src="https://res.cloudinary.com/dapa84kxy/image/upload/v1646153693/portafolio/barberapp/menu-user-desk_jtgfwl.png"
-      />
-    </div>
-    <div
-      className="mx-auto sm:m-0"
-      key="https://res.cloudinary.com/dapa84kxy/image/upload/v1646015130/portafolio/barberapp/43985bb6-9674-48b4-9c1a-53ac5c329fbc_lstegh.jpg"
-    >
-      <img
-        alt="screenshot-proyecto"
-        className="cursor-pointer hover:scale-[1.01] transition-transform duration-300 object-cover max-h-[200px]  mx-auto ring-1"
-        onClick={[Function]}
-        src="https://res.cloudinary.com/dapa84kxy/image/upload/v1646015130/portafolio/barberapp/43985bb6-9674-48b4-9c1a-53ac5c329fbc_lstegh.jpg"
-      />
-    </div>
-    <div
-      className="mx-auto sm:m-0"
-      key="https://res.cloudinary.com/dapa84kxy/image/upload/v1646153692/portafolio/barberapp/menu-barber-desk_p0d8gq.png"
-    >
-      <img
-        alt="screenshot-proyecto"
-        className="cursor-pointer hover:scale-[1.01] transition-transform duration-300 object-cover max-h-[200px]  mx-auto ring-1"
-        onClick={[Function]}
-        src="https://res.cloudinary.com/dapa84kxy/image/upload/v1646153692/portafolio/barberapp/menu-barber-desk_p0d8gq.png"
+        className="cursor-pointer object-cover max-h-[400px] aspect-video mx-auto ring-1"
+        controls={true}
+        preload="auto"
+        src="https://res.cloudinary.com/dapa84kxy/video/upload/v1653062397/portafolio/2022-05-14_22-38-31_ru2dv2.mp4"
       />
     </div>
   </div>

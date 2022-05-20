@@ -12,79 +12,13 @@ exports[`probando <Funcionalidades/> debe montarse correctamente 1`] = `
   >
     <li
       className="list-disc hover:text-blue-400 "
-      key="Barbero y cliente"
+      key="Video presentacion de InstaGama"
     >
       <a
         className="underline"
-        href="#Barberoycliente"
+        href="#VideopresentaciondeInstaGama"
       >
-        Barbero y cliente
-      </a>
-    </li>
-    <li
-      className="list-disc hover:text-blue-400 "
-      key="Login y Registro del barbero"
-    >
-      <a
-        className="underline"
-        href="#LoginyRegistrodelbarbero"
-      >
-        Login y Registro del barbero
-      </a>
-    </li>
-    <li
-      className="list-disc hover:text-blue-400 "
-      key="Login y Registro del cliente"
-    >
-      <a
-        className="underline"
-        href="#LoginyRegistrodelcliente"
-      >
-        Login y Registro del cliente
-      </a>
-    </li>
-    <li
-      className="list-disc hover:text-blue-400 "
-      key="Agendar cita"
-    >
-      <a
-        className="underline"
-        href="#Agendarcita"
-      >
-        Agendar cita
-      </a>
-    </li>
-    <li
-      className="list-disc hover:text-blue-400 "
-      key="Ver citas"
-    >
-      <a
-        className="underline"
-        href="#Vercitas"
-      >
-        Ver citas
-      </a>
-    </li>
-    <li
-      className="list-disc hover:text-blue-400 "
-      key="Ver barberos"
-    >
-      <a
-        className="underline"
-        href="#Verbarberos"
-      >
-        Ver barberos
-      </a>
-    </li>
-    <li
-      className="list-disc hover:text-blue-400 "
-      key="Perfil de barbero"
-    >
-      <a
-        className="underline"
-        href="#Perfildebarbero"
-      >
-        Perfil de barbero
+        Video presentacion de InstaGama
       </a>
     </li>
   </ul>

@@ -2,6 +2,7 @@
  * @jest-environment jsdom
  */
 import { miDescripcion, proyectos } from '../../helpers/data'
+
 const proyectosForTest = [
   {
     titulo: 'INSTAGAMA',
@@ -12,6 +13,15 @@ const proyectosForTest = [
     codigo: 'https://github.com/GamaDev-Andres/instaGama',
     poster:
       'https://res.cloudinary.com/dapa84kxy/image/upload/v1652509941/portafolio/instaGama/Image_1_n55ffj.png',
+    detalles: [
+      {
+        titulo: 'Video presentacion de InstaGama',
+        data: 'En este video se resumen las funcionalidades principales del proyecto.',
+        videos: [
+          'https://res.cloudinary.com/dapa84kxy/video/upload/v1653062397/portafolio/2022-05-14_22-38-31_ru2dv2.mp4'
+        ]
+      }
+    ],
     fotos: []
   },
   {

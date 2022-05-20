@@ -12,7 +12,7 @@ describe('probando <SectionProject/>', () => {
   const proyecto = proyectos.find(project => project.detalles).detalles[0]
   test('debe montarse correctamente ', () => {
     const wrapper = Enzyme.mount(
-      <SectionInProject titulo={proyecto.titulo} arrImgs={proyecto.fotos} descripcion={proyecto.data} />
+      <SectionInProject titulo={proyecto.titulo} arrImgs={proyecto.fotos} arrVideos={proyecto.videos} descripcion={proyecto.data} />
     )
     expect(wrapper).toMatchSnapshot()
     expect(wrapper.find('h3').text().trim()).toBe(proyecto.titulo)

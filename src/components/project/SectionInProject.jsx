@@ -1,7 +1,12 @@
 import PropTypes from 'prop-types'
 import { useState } from 'react'
 import { ModalPortal } from '../modal/Modal'
-const SectionInProject = ({ titulo, descripcion, arrImgs }) => {
+const SectionInProject = ({
+  titulo,
+  descripcion,
+  arrImgs = [],
+  arrVideos = []
+}) => {
   const [isOpenModal, setIsOpenModal] = useState(false)
 
   const closeModal = () => {
@@ -15,16 +20,29 @@ const SectionInProject = ({ titulo, descripcion, arrImgs }) => {
       </h3>
       <p>{descripcion}</p>
       <div className="flex flex-wrap pt-4 gap-4 items-center">
-        {arrImgs.map((el) => (
-          <div className="mx-auto sm:m-0" key={el}>
-            <img
-              onClick={() => setIsOpenModal(el)}
-              className="cursor-pointer hover:scale-[1.01] transition-transform duration-300 object-cover max-h-[200px]  mx-auto ring-1"
-              src={el}
-              alt="screenshot-proyecto"
-            />
-          </div>
-        ))}
+        {arrVideos.length > 0 &&
+          arrVideos.map((el) => (
+            <div className="mx-auto sm:m-0 w-full center" key={el}>
+              <video
+                className="cursor-pointer object-cover max-h-[400px] aspect-video mx-auto ring-1"
+                src={el}
+                preload="auto"
+                controls={true}
+                alt="screenshot-proyecto"
+              />
+            </div>
+          ))}
+        {arrImgs.length > 0 &&
+          arrImgs.map((el) => (
+            <div className="mx-auto sm:m-0" key={el}>
+              <img
+                onClick={() => setIsOpenModal(el)}
+                className="cursor-pointer hover:scale-[1.01] transition-transform duration-300 object-cover max-h-[200px]  mx-auto ring-1"
+                src={el}
+                alt="screenshot-proyecto"
+              />
+            </div>
+          ))}
       </div>
       {isOpenModal && (
         <ModalPortal isOpen={isOpenModal} closeModal={closeModal}>
@@ -41,6 +59,7 @@ const SectionInProject = ({ titulo, descripcion, arrImgs }) => {
 SectionInProject.propTypes = {
   titulo: PropTypes.string.isRequired,
   descripcion: PropTypes.string.isRequired,
-  arrImgs: PropTypes.array.isRequired
+  arrImgs: PropTypes.array,
+  arrVideos: PropTypes.array
 }
 export default SectionInProject
