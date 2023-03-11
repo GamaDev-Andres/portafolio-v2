@@ -2,7 +2,7 @@
 
 exports[`probando <CardProject/> debe montarse correctamente 1`] = `
 <div
-  className=" shadow-blue-200 shadow-md rounded-2xl rounded-t-none transition-colors duration-150 bg-white dark:bg-baseDark text-fondos"
+  className=" shadow-blue-200 shadow-sm rounded-2xl rounded-t-none transition-colors duration-150 bg-white dark:bg-baseDark text-fondos"
 >
   <a
     className="w-full block aspect-video"

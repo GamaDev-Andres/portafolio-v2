@@ -8,7 +8,15 @@ const proyectosForTest = [
     titulo: 'INSTAGAMA',
     descripcion:
       'Proyecto con objetivo académico y practico , en donde creo un clon funcional de Instagram con sus funcionalidades básicas. implementando tecnologías como vite, MERN, sockets entre otras.',
-    tecnologias: ['React', 'Node', 'Express', 'MongoDb', 'Tailwindcss', 'Sockets.io', 'Cloudinary'],
+    tecnologias: [
+      'React',
+      'Node',
+      'Express',
+      'MongoDb',
+      'Tailwindcss',
+      'Sockets.io',
+      'Cloudinary'
+    ],
     url: 'https://insta-gama.vercel.app/',
     codigo: 'https://github.com/GamaDev-Andres/instaGama',
     poster:
@@ -210,7 +218,7 @@ const miDescripcionForTest = {
   quienSoy: {
     parrafo1: `Mi nombre es Andres Gama, me apasiona encontrar grandes retos que me
           permitan crecer profesional y personalmente, la programación me
-          permite enfocarme en esto.Actualmente tengo 21 años y sé que lograre
+          permite enfocarme en esto.Actualmente tengo 22 años y sé que lograre
           que mis conocimientos sean participes de grandes, útiles y reconocidos
           proyectos.`,
     parrafo2: `En mí podras ver a un chico ansioso por aprender y dispuesto a

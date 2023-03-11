@@ -6,7 +6,7 @@ exports[`probando <FigureFoto/> debe montarse correctamente 1`] = `
 >
   <img
     alt="foto Andres Gama"
-    className="w-full object-cover object-top  shadow-2xl shadow-blue-200 h-full rounded-full"
+    className="w-full object-cover object-top  shadow-md shadow-blue-100 h-full rounded-full"
     src={Object {}}
   />
 </figure>

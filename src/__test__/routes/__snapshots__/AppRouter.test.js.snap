@@ -101,7 +101,7 @@ Array [
       >
         <img
           alt="foto Andres Gama"
-          className="w-full object-cover object-top  shadow-2xl shadow-blue-200 h-full rounded-full"
+          className="w-full object-cover object-top  shadow-md shadow-blue-100 h-full rounded-full"
           src={Object {}}
         />
       </figure>
@@ -140,14 +140,14 @@ Array [
           className="py-4 gap-4 flex justify-start items-center flex-wrap"
         >
           <a
-            className=" text-sm border border-solid shadow-blue-200 shadow-lg border-blue-400 px-6 py-2 rounded-full"
+            className=" text-sm border border-solid hover:shadow-blue-200 duration-300 hover:shadow-md border-blue-400 px-6 py-2 rounded-full"
             download="Andres-Gama-CV-Fullstack-developer.pdf"
             href={Object {}}
           >
             Resumé
           </a>
           <a
-            className="p-2 flex flex-col justify-center items-center shadow-md shadow-blue-200 border border-solid border-blue-100"
+            className="p-2 flex flex-col justify-center items-center duration-300 hover:shadow-md hover:shadow-blue-200 border border-solid border-blue-100"
             href="https://github.com/GamaDev-Andres"
             rel="noreferrer"
             target="_blank"
@@ -162,7 +162,7 @@ Array [
             </span>
           </a>
           <a
-            className="p-2 flex flex-col justify-center items-center shadow-md shadow-blue-200 border border-solid border-blue-100"
+            className="p-2 flex flex-col justify-center items-center duration-300 hover:shadow-md hover:shadow-blue-200 border border-solid border-blue-100"
             href="https://www.linkedin.com/in/andres-gama/"
             rel="noreferrer"
             target="_blank"
@@ -211,7 +211,7 @@ Array [
               </span>
               Mi nombre es Andres Gama, me apasiona encontrar grandes retos que me
           permitan crecer profesional y personalmente, la programación me
-          permite enfocarme en esto.Actualmente tengo 21 años y sé que lograre
+          permite enfocarme en esto.Actualmente tengo 22 años y sé que lograre
           que mis conocimientos sean participes de grandes, útiles y reconocidos
           proyectos.
             </p>
@@ -365,7 +365,7 @@ Array [
         className="grid grid-cols-1 md:grid-cols-layoutCards gap-8"
       >
         <div
-          className=" shadow-blue-200 shadow-md rounded-2xl rounded-t-none transition-colors duration-150 bg-white dark:bg-baseDark text-fondos"
+          className=" shadow-blue-200 shadow-sm rounded-2xl rounded-t-none transition-colors duration-150 bg-white dark:bg-baseDark text-fondos"
         >
           <a
             className="w-full block aspect-video"
@@ -486,7 +486,7 @@ Array [
               </ul>
             </div>
             <a
-              className=" hover:shadow-lg hover:shadow-blue-300 text-sm text-center mx-auto block mt-4 border border-solid shadow-blue-200 shadow-md border-blue-400 px-6 py-2 rounded-full"
+              className=" hover:shadow-sm hover:shadow-blue-200 duration-300 text-sm text-center mx-auto block mt-4 border border-solid border-blue-400 px-6 py-2 rounded-full"
               href="/project/INSTAGAMA"
               onClick={[Function]}
               rel="noreferrer"
@@ -496,7 +496,7 @@ Array [
           </div>
         </div>
         <div
-          className=" shadow-blue-200 shadow-md rounded-2xl rounded-t-none transition-colors duration-150 bg-white dark:bg-baseDark text-fondos"
+          className=" shadow-blue-200 shadow-sm rounded-2xl rounded-t-none transition-colors duration-150 bg-white dark:bg-baseDark text-fondos"
         >
           <a
             className="w-full block aspect-video"
@@ -604,7 +604,7 @@ Array [
               </ul>
             </div>
             <a
-              className=" hover:shadow-lg hover:shadow-blue-300 text-sm text-center mx-auto block mt-4 border border-solid shadow-blue-200 shadow-md border-blue-400 px-6 py-2 rounded-full"
+              className=" hover:shadow-sm hover:shadow-blue-200 duration-300 text-sm text-center mx-auto block mt-4 border border-solid border-blue-400 px-6 py-2 rounded-full"
               href="/project/BARBERAPP"
               onClick={[Function]}
               rel="noreferrer"
@@ -614,7 +614,7 @@ Array [
           </div>
         </div>
         <div
-          className=" shadow-blue-200 shadow-md rounded-2xl rounded-t-none transition-colors duration-150 bg-white dark:bg-baseDark text-fondos"
+          className=" shadow-blue-200 shadow-sm rounded-2xl rounded-t-none transition-colors duration-150 bg-white dark:bg-baseDark text-fondos"
         >
           <a
             className="w-full block aspect-video"
@@ -711,7 +711,7 @@ Array [
               </ul>
             </div>
             <a
-              className=" hover:shadow-lg hover:shadow-blue-300 text-sm text-center mx-auto block mt-4 border border-solid shadow-blue-200 shadow-md border-blue-400 px-6 py-2 rounded-full"
+              className=" hover:shadow-sm hover:shadow-blue-200 duration-300 text-sm text-center mx-auto block mt-4 border border-solid border-blue-400 px-6 py-2 rounded-full"
               href="/project/NETBOOK"
               onClick={[Function]}
               rel="noreferrer"
@@ -721,7 +721,7 @@ Array [
           </div>
         </div>
         <div
-          className=" shadow-blue-200 shadow-md rounded-2xl rounded-t-none transition-colors duration-150 bg-white dark:bg-baseDark text-fondos"
+          className=" shadow-blue-200 shadow-sm rounded-2xl rounded-t-none transition-colors duration-150 bg-white dark:bg-baseDark text-fondos"
         >
           <a
             className="w-full block aspect-video"
@@ -812,7 +812,7 @@ Array [
           </div>
         </div>
         <div
-          className=" shadow-blue-200 shadow-md rounded-2xl rounded-t-none transition-colors duration-150 bg-white dark:bg-baseDark text-fondos"
+          className=" shadow-blue-200 shadow-sm rounded-2xl rounded-t-none transition-colors duration-150 bg-white dark:bg-baseDark text-fondos"
         >
           <a
             className="w-full block aspect-video"
@@ -911,7 +911,7 @@ Array [
           </div>
         </div>
         <div
-          className=" shadow-blue-200 shadow-md rounded-2xl rounded-t-none transition-colors duration-150 bg-white dark:bg-baseDark text-fondos"
+          className=" shadow-blue-200 shadow-sm rounded-2xl rounded-t-none transition-colors duration-150 bg-white dark:bg-baseDark text-fondos"
         >
           <a
             className="w-full block aspect-video"
@@ -1177,7 +1177,7 @@ Array [
       >
         <img
           alt="foto Andres Gama"
-          className="w-full object-cover object-top  shadow-2xl shadow-blue-200 h-full rounded-full"
+          className="w-full object-cover object-top  shadow-md shadow-blue-100 h-full rounded-full"
           src={Object {}}
         />
       </figure>
@@ -1216,14 +1216,14 @@ Array [
           className="py-4 gap-4 flex justify-start items-center flex-wrap"
         >
           <a
-            className=" text-sm border border-solid shadow-blue-200 shadow-lg border-blue-400 px-6 py-2 rounded-full"
+            className=" text-sm border border-solid hover:shadow-blue-200 duration-300 hover:shadow-md border-blue-400 px-6 py-2 rounded-full"
             download="Andres-Gama-CV-Fullstack-developer.pdf"
             href={Object {}}
           >
             Resumé
           </a>
           <a
-            className="p-2 flex flex-col justify-center items-center shadow-md shadow-blue-200 border border-solid border-blue-100"
+            className="p-2 flex flex-col justify-center items-center duration-300 hover:shadow-md hover:shadow-blue-200 border border-solid border-blue-100"
             href="https://github.com/GamaDev-Andres"
             rel="noreferrer"
             target="_blank"
@@ -1238,7 +1238,7 @@ Array [
             </span>
           </a>
           <a
-            className="p-2 flex flex-col justify-center items-center shadow-md shadow-blue-200 border border-solid border-blue-100"
+            className="p-2 flex flex-col justify-center items-center duration-300 hover:shadow-md hover:shadow-blue-200 border border-solid border-blue-100"
             href="https://www.linkedin.com/in/andres-gama/"
             rel="noreferrer"
             target="_blank"
@@ -1287,7 +1287,7 @@ Array [
               </span>
               Mi nombre es Andres Gama, me apasiona encontrar grandes retos que me
           permitan crecer profesional y personalmente, la programación me
-          permite enfocarme en esto.Actualmente tengo 21 años y sé que lograre
+          permite enfocarme en esto.Actualmente tengo 22 años y sé que lograre
           que mis conocimientos sean participes de grandes, útiles y reconocidos
           proyectos.
             </p>
@@ -1441,7 +1441,7 @@ Array [
         className="grid grid-cols-1 md:grid-cols-layoutCards gap-8"
       >
         <div
-          className=" shadow-blue-200 shadow-md rounded-2xl rounded-t-none transition-colors duration-150 bg-white dark:bg-baseDark text-fondos"
+          className=" shadow-blue-200 shadow-sm rounded-2xl rounded-t-none transition-colors duration-150 bg-white dark:bg-baseDark text-fondos"
         >
           <a
             className="w-full block aspect-video"
@@ -1562,7 +1562,7 @@ Array [
               </ul>
             </div>
             <a
-              className=" hover:shadow-lg hover:shadow-blue-300 text-sm text-center mx-auto block mt-4 border border-solid shadow-blue-200 shadow-md border-blue-400 px-6 py-2 rounded-full"
+              className=" hover:shadow-sm hover:shadow-blue-200 duration-300 text-sm text-center mx-auto block mt-4 border border-solid border-blue-400 px-6 py-2 rounded-full"
               href="/project/INSTAGAMA"
               onClick={[Function]}
               rel="noreferrer"
@@ -1572,7 +1572,7 @@ Array [
           </div>
         </div>
         <div
-          className=" shadow-blue-200 shadow-md rounded-2xl rounded-t-none transition-colors duration-150 bg-white dark:bg-baseDark text-fondos"
+          className=" shadow-blue-200 shadow-sm rounded-2xl rounded-t-none transition-colors duration-150 bg-white dark:bg-baseDark text-fondos"
         >
           <a
             className="w-full block aspect-video"
@@ -1680,7 +1680,7 @@ Array [
               </ul>
             </div>
             <a
-              className=" hover:shadow-lg hover:shadow-blue-300 text-sm text-center mx-auto block mt-4 border border-solid shadow-blue-200 shadow-md border-blue-400 px-6 py-2 rounded-full"
+              className=" hover:shadow-sm hover:shadow-blue-200 duration-300 text-sm text-center mx-auto block mt-4 border border-solid border-blue-400 px-6 py-2 rounded-full"
               href="/project/BARBERAPP"
               onClick={[Function]}
               rel="noreferrer"
@@ -1690,7 +1690,7 @@ Array [
           </div>
         </div>
         <div
-          className=" shadow-blue-200 shadow-md rounded-2xl rounded-t-none transition-colors duration-150 bg-white dark:bg-baseDark text-fondos"
+          className=" shadow-blue-200 shadow-sm rounded-2xl rounded-t-none transition-colors duration-150 bg-white dark:bg-baseDark text-fondos"
         >
           <a
             className="w-full block aspect-video"
@@ -1787,7 +1787,7 @@ Array [
               </ul>
             </div>
             <a
-              className=" hover:shadow-lg hover:shadow-blue-300 text-sm text-center mx-auto block mt-4 border border-solid shadow-blue-200 shadow-md border-blue-400 px-6 py-2 rounded-full"
+              className=" hover:shadow-sm hover:shadow-blue-200 duration-300 text-sm text-center mx-auto block mt-4 border border-solid border-blue-400 px-6 py-2 rounded-full"
               href="/project/NETBOOK"
               onClick={[Function]}
               rel="noreferrer"
@@ -1797,7 +1797,7 @@ Array [
           </div>
         </div>
         <div
-          className=" shadow-blue-200 shadow-md rounded-2xl rounded-t-none transition-colors duration-150 bg-white dark:bg-baseDark text-fondos"
+          className=" shadow-blue-200 shadow-sm rounded-2xl rounded-t-none transition-colors duration-150 bg-white dark:bg-baseDark text-fondos"
         >
           <a
             className="w-full block aspect-video"
@@ -1888,7 +1888,7 @@ Array [
           </div>
         </div>
         <div
-          className=" shadow-blue-200 shadow-md rounded-2xl rounded-t-none transition-colors duration-150 bg-white dark:bg-baseDark text-fondos"
+          className=" shadow-blue-200 shadow-sm rounded-2xl rounded-t-none transition-colors duration-150 bg-white dark:bg-baseDark text-fondos"
         >
           <a
             className="w-full block aspect-video"
@@ -1987,7 +1987,7 @@ Array [
           </div>
         </div>
         <div
-          className=" shadow-blue-200 shadow-md rounded-2xl rounded-t-none transition-colors duration-150 bg-white dark:bg-baseDark text-fondos"
+          className=" shadow-blue-200 shadow-sm rounded-2xl rounded-t-none transition-colors duration-150 bg-white dark:bg-baseDark text-fondos"
         >
           <a
             className="w-full block aspect-video"

@@ -20,7 +20,7 @@ exports[`probando <SectionProjects/> debe montarse correctamente 1`] = `
     className="grid grid-cols-1 md:grid-cols-layoutCards gap-8"
   >
     <div
-      className=" shadow-blue-200 shadow-md rounded-2xl rounded-t-none transition-colors duration-150 bg-white dark:bg-baseDark text-fondos"
+      className=" shadow-blue-200 shadow-sm rounded-2xl rounded-t-none transition-colors duration-150 bg-white dark:bg-baseDark text-fondos"
     >
       <a
         className="w-full block aspect-video"
@@ -141,7 +141,7 @@ exports[`probando <SectionProjects/> debe montarse correctamente 1`] = `
           </ul>
         </div>
         <a
-          className=" hover:shadow-lg hover:shadow-blue-300 text-sm text-center mx-auto block mt-4 border border-solid shadow-blue-200 shadow-md border-blue-400 px-6 py-2 rounded-full"
+          className=" hover:shadow-sm hover:shadow-blue-200 duration-300 text-sm text-center mx-auto block mt-4 border border-solid border-blue-400 px-6 py-2 rounded-full"
           href="/project/INSTAGAMA"
           onClick={[Function]}
           rel="noreferrer"
@@ -151,7 +151,7 @@ exports[`probando <SectionProjects/> debe montarse correctamente 1`] = `
       </div>
     </div>
     <div
-      className=" shadow-blue-200 shadow-md rounded-2xl rounded-t-none transition-colors duration-150 bg-white dark:bg-baseDark text-fondos"
+      className=" shadow-blue-200 shadow-sm rounded-2xl rounded-t-none transition-colors duration-150 bg-white dark:bg-baseDark text-fondos"
     >
       <a
         className="w-full block aspect-video"
@@ -259,7 +259,7 @@ exports[`probando <SectionProjects/> debe montarse correctamente 1`] = `
           </ul>
         </div>
         <a
-          className=" hover:shadow-lg hover:shadow-blue-300 text-sm text-center mx-auto block mt-4 border border-solid shadow-blue-200 shadow-md border-blue-400 px-6 py-2 rounded-full"
+          className=" hover:shadow-sm hover:shadow-blue-200 duration-300 text-sm text-center mx-auto block mt-4 border border-solid border-blue-400 px-6 py-2 rounded-full"
           href="/project/BARBERAPP"
           onClick={[Function]}
           rel="noreferrer"
@@ -269,7 +269,7 @@ exports[`probando <SectionProjects/> debe montarse correctamente 1`] = `
       </div>
     </div>
     <div
-      className=" shadow-blue-200 shadow-md rounded-2xl rounded-t-none transition-colors duration-150 bg-white dark:bg-baseDark text-fondos"
+      className=" shadow-blue-200 shadow-sm rounded-2xl rounded-t-none transition-colors duration-150 bg-white dark:bg-baseDark text-fondos"
     >
       <a
         className="w-full block aspect-video"
@@ -366,7 +366,7 @@ exports[`probando <SectionProjects/> debe montarse correctamente 1`] = `
           </ul>
         </div>
         <a
-          className=" hover:shadow-lg hover:shadow-blue-300 text-sm text-center mx-auto block mt-4 border border-solid shadow-blue-200 shadow-md border-blue-400 px-6 py-2 rounded-full"
+          className=" hover:shadow-sm hover:shadow-blue-200 duration-300 text-sm text-center mx-auto block mt-4 border border-solid border-blue-400 px-6 py-2 rounded-full"
           href="/project/NETBOOK"
           onClick={[Function]}
           rel="noreferrer"
@@ -376,7 +376,7 @@ exports[`probando <SectionProjects/> debe montarse correctamente 1`] = `
       </div>
     </div>
     <div
-      className=" shadow-blue-200 shadow-md rounded-2xl rounded-t-none transition-colors duration-150 bg-white dark:bg-baseDark text-fondos"
+      className=" shadow-blue-200 shadow-sm rounded-2xl rounded-t-none transition-colors duration-150 bg-white dark:bg-baseDark text-fondos"
     >
       <a
         className="w-full block aspect-video"
@@ -467,7 +467,7 @@ exports[`probando <SectionProjects/> debe montarse correctamente 1`] = `
       </div>
     </div>
     <div
-      className=" shadow-blue-200 shadow-md rounded-2xl rounded-t-none transition-colors duration-150 bg-white dark:bg-baseDark text-fondos"
+      className=" shadow-blue-200 shadow-sm rounded-2xl rounded-t-none transition-colors duration-150 bg-white dark:bg-baseDark text-fondos"
     >
       <a
         className="w-full block aspect-video"
@@ -566,7 +566,7 @@ exports[`probando <SectionProjects/> debe montarse correctamente 1`] = `
       </div>
     </div>
     <div
-      className=" shadow-blue-200 shadow-md rounded-2xl rounded-t-none transition-colors duration-150 bg-white dark:bg-baseDark text-fondos"
+      className=" shadow-blue-200 shadow-sm rounded-2xl rounded-t-none transition-colors duration-150 bg-white dark:bg-baseDark text-fondos"
     >
       <a
         className="w-full block aspect-video"
