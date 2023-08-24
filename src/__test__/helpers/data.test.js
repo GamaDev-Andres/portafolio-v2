@@ -200,18 +200,18 @@ const proyectosForTest = [
     poster:
       'https://res.cloudinary.com/dapa84kxy/image/upload/v1644875064/portafolio/mispelis/imagepelisOMDB_cchblf.png',
     fotos: []
-  },
-  {
-    titulo: 'FINDYOURGAMES',
-    descripcion:
-      'Proyecto realizado con Html, css, javascript y gulp. En este proyecto consulto una API de videojuegos y organizo su información en una interfaz que me permite hacer búsqueda y filtrado de los videojuegos disponibles.',
-    tecnologias: ['Html', 'Sass', 'Gulp', 'Javascript'],
-    url: 'https://findyourgames.netlify.app/',
-    codigo: 'https://github.com/GamaDev-Andres/FindYourGames',
-    poster:
-      'https://res.cloudinary.com/dapa84kxy/image/upload/v1644875081/portafolio/findyourgames/proyecto1_vsncjy.png',
-    fotos: []
   }
+  // {
+  //   titulo: 'FINDYOURGAMES',
+  //   descripcion:
+  //     'Proyecto realizado con Html, css, javascript y gulp. En este proyecto consulto una API de videojuegos y organizo su información en una interfaz que me permite hacer búsqueda y filtrado de los videojuegos disponibles.',
+  //   tecnologias: ['Html', 'Sass', 'Gulp', 'Javascript'],
+  //   url: 'https://findyourgames.netlify.app/',
+  //   codigo: 'https://github.com/GamaDev-Andres/FindYourGames',
+  //   poster:
+  //     'https://res.cloudinary.com/dapa84kxy/image/upload/v1644875081/portafolio/findyourgames/proyecto1_vsncjy.png',
+  //   fotos: []
+  // }
 ]
 
 const miDescripcionForTest = {
