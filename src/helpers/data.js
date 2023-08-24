@@ -184,18 +184,18 @@ export const proyectos = [
     poster:
       'https://res.cloudinary.com/dapa84kxy/image/upload/v1644875042/portafolio/galeriareact/reactFirebase_xjiauw.png',
     fotos: []
-  },
-  {
-    titulo: 'MIS PELIS',
-    descripcion:
-      'Proyecto de películas hecho con Javascript, Sass y webpack .En este proyecto me baso en un diseño de una pagina funcional, consulto la API IMDB que me provee información tanto de series como de películas con sus respectivos tráileres y sinopsis. Implemento buscadores y lista de favoritos.',
-    tecnologias: ['Html', 'Sass', 'Webpack', 'Javascript'],
-    url: 'https://afmispelisgi.netlify.app/',
-    codigo: 'https://github.com/GamaDev-Andres/PeliculasOMDB',
-    poster:
-      'https://res.cloudinary.com/dapa84kxy/image/upload/v1644875064/portafolio/mispelis/imagepelisOMDB_cchblf.png',
-    fotos: []
   }
+  // {
+  //   titulo: 'MIS PELIS',
+  //   descripcion:
+  //     'Proyecto de películas hecho con Javascript, Sass y webpack .En este proyecto me baso en un diseño de una pagina funcional, consulto la API IMDB que me provee información tanto de series como de películas con sus respectivos tráileres y sinopsis. Implemento buscadores y lista de favoritos.',
+  //   tecnologias: ['Html', 'Sass', 'Webpack', 'Javascript'],
+  //   url: 'https://afmispelisgi.netlify.app/',
+  //   codigo: 'https://github.com/GamaDev-Andres/PeliculasOMDB',
+  //   poster:
+  //     'https://res.cloudinary.com/dapa84kxy/image/upload/v1644875064/portafolio/mispelis/imagepelisOMDB_cchblf.png',
+  //   fotos: []
+  // }
   // {
   //   titulo: 'FINDYOURGAMES',
   //   descripcion:
